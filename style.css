@@ -1,0 +1,24 @@
+body {
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 222, 245);
+    color: white;
+    font-size: small;
+}
+
+.start img {
+    padding-left: 10%;
+    width: 85px;
+    height: auto;
+}
+
+.einde {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
