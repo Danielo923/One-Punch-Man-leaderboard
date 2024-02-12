@@ -18,13 +18,13 @@ function getHeroes() {
 
 function leaderboard() {
     if (localStorage.getItem("data")) {
-        console.log("aiejvnsibvishbvr")
+        console.log("localstorage")
         data = JSON.parse(localStorage.getItem("data"));
     } else {
         data = JSON.stringify(getHeroes());
     }
-    // const leaderboardElement = document.getElementById('leaderboard');
-    // leaderboardElement.innerHTML = 
+    const leaderboardElement = document.getElementById('leaderboard');
+    leaderboardElement.innerHTML = data
 }
 
 // localStorage.clear()
