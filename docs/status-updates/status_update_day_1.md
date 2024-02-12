@@ -1,0 +1,1 @@
+Navbar created and start of javascript function.
