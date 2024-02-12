@@ -18,7 +18,7 @@ function getHeroes() {
 
 function leaderboard() {
     if (localStorage.getItem("data")) {
-        console.log("aiejvnsibvishbvr")
+        console.log("aiejvnsibvishbvr");
         data = JSON.parse(localStorage.getItem("data"));
     } else {
         data = JSON.stringify(getHeroes());
