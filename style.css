@@ -7,10 +7,15 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(223, 222, 245);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: small;
 }
-
+.start {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    color: black;
+}
 .start img {
     padding-left: 10%;
     width: 85px;
@@ -21,4 +26,16 @@ body {
     display: flex;
     justify-content: end;
     padding-right: 5%;
+    align-items: center;
+    color: black;
+}
+.einde a {
+    margin-left: 20px;
+    font-size: large;
+    font-family: Arial;
+    color: black;
+    text-decoration: none
+}
+.einde a:hover {
+    color: rgb(112, 112, 200);
 }
