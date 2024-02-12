@@ -15,6 +15,7 @@
 - card design idea
 
 # Plan
+<img src="example.png" alt="example of our plan">
 
 ## Technologies
 The coding languages we will use:
