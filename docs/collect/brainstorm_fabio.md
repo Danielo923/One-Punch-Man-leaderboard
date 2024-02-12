@@ -6,7 +6,7 @@ This is beacause it is most suited for our skill set and the things we have lear
 For this project I want to make leaderboards that you can change in the web.
 
 ## For section A
-In this section i want to make the leaderboards so that you can choose which leaderboard you want to see.
+In this section I want to make the leaderboards so that you can choose which leaderboard you want to see.
 
 ## For section B
 For this I want to make the voting system like upvoting on reddit. this way you can see how many upvotes a hero has and in this way you can also make it so downvotes also play a role in the voting.
