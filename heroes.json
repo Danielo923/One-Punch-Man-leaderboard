@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Pablito",
+        "power": "Burritos of Justice",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 2,
+        "name": "Mumen Rider",
+        "power": "Cyclist for Justice",
+        "votes": 999,
+        "rank": "S"
+    }
+]
