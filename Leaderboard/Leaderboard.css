@@ -91,16 +91,24 @@ body {
     justify-content: center;
 }
 
-.elite-hero-card:nth-child(1) {
+.top3-hero-card:nth-child(1) {
     border: rgb(161, 119, 1) solid;
     background-color: rgb(216, 175, 61);
 }
 
-.elite-hero-card:nth-child(2) {
+.top3-hero-card:nth-child(2) {
     border: rgb(255, 251, 251) solid;
     background-color: rgb(192, 192, 192);
 }
-
+.top3-hero-card:nth-child(3) {
+    border: rgb(138, 88, 39)solid;
+    background-color: rgb(205, 127, 50);
+}
+.eliteherocard img {
+    max-width: 125px;
+    width: 100%;
+    height: auto;
+}
 main {
     overflow: hidden;
     position: relative;
@@ -112,4 +120,23 @@ main {
     z-index: -1;
     top: 0;
     width: 100%;
+}
+.top3herocard img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.top3-hero-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 300px;
+    border: #303030 solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+    align-items: center;
+    justify-content: center;
 }
