@@ -12,7 +12,7 @@
         "name": "Mumen Rider",
         "power": "Cyclist for Justice",
         "votes": 999,
-        "rank": "S",
+        "rank": "C",
         "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909772650254366/License-less_Rider_profile.webp?ex=65ddb951&is=65cb4451&hm=c3bca20935bc054773ad804e5aeaa44c8b471372933da5f92f65a903306d6d3c&"
     },
     {
@@ -180,62 +180,231 @@
         "name": "Magic Trick Man",
         "power": "Magic",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943439414104104/Magic_Trick_Man_icon.webp?ex=65ddd8ab&is=65cb63ab&hm=59dd1a236fac13d6dd353298aa4d7aa0672d8e457fbe98bf51af545c88c3ff3e&"
     },
     {
         "id": 24,
         "name": "Eyelaches",
         "power": "Eyelash curlers",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943439779012618/Eyelashes.webp?ex=65ddd8ab&is=65cb63ab&hm=7509157fa96141609cb5e49a1a25eea8fd03f974a38cb8a3e186d9b308e9d97b&"
     },
     {
         "id": 25,
         "name": "Mountain Ape",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440169074698/Mountain_Ape_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=31941d538295a590f0a9b81749029876fd6c857cbfea43b5e88ea6437deff7f9&"
     },
     {
         "id": 26,
         "name": "Mad Devil Yankee",
         "power": "Enhanced Durability and Endurance",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440529526834/Mad_Devil_Yankee_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=7c626abf6e6dbe3a330b0a50c61824f293b4fe27bc19d070482d7b4c145d6a60&"
     },
     {
         "id": 27,
         "name": "Wild Horn",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440957472798/Wild_Horn_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=5808d27759067223020a0d25b808370145166d04be6ae88255a156b5fb6409ad&"
     },
     {
         "id": 28,
         "name": "Glasses",
         "power": "Enhanced Durability and Endurance and Strength",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943441339023360/Glasses_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=f1bd3d03fdd57ee9044a5b2b4480687cef10f13f690dfd173038f41552f36f27&"
     },
     {
         "id": 29,
         "name": "Pink Hornet",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943441720844288/PinkHornet.webp?ex=65ddd8ac&is=65cb63ac&hm=965be37e271c2e821e75bf0e875ee8df881d7bc51e544af60fcfa4e116605b50&"
     },
     {
         "id": 30,
         "name": "Double Hole",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442060451870/Double_Hole_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=efc1bd189b4971dcbb0f6ae27232b2f817d89163f656df055352f4483ef6ab3f&"
     },
     {
         "id": 31,
         "name": "Smell Master",
         "power": "Enhanced Smell",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442425483284/SmellMaster.webp?ex=65ddd8ac&is=65cb63ac&hm=3732158da760f262e6ec145a05d2b7905cffa9059b43f3a9ca1e5217779d09a5&"
+    },
+    {
+        "id": 32,
+        "name": "Gun Gun",
+        "power": "Marksmanship",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442824073266/Gun_Gun_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=ddb8b92c20e2eed7e6c8cdaffb6592a8edcc2aac552e7a28318571217e4c9346&"
+    },
+    {
+       "id": 33,
+       "name": "Butcher",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952637019332678/Butcher.webp?ex=65dde13c&is=65cb6c3c&hm=981238aec48050c4cdc538d17022cf9f1c55eb64d01f296368dc4e5af353ac5f&"
+    },
+    {
+        "id": 34,
+        "name": "Jet Nice Guy",
+        "power": "Cybernetic Combatant",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642018934804/Jet_Nice_Guy_Manga.webp?ex=65dde13d&is=65cb6c3d&hm=223b1c6ec764739f3e952bcaca507b4007d28049dea90f7f2ec7eba5e736223f&"
+    },
+    {
+        "id": 35,
+        "name": "Needle Star",
+        "power": "Spearsmanship",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642564067358/Needle_Star_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=16550bf9fbda9b2b0244dfd75366bb55a05cf840f20abbe36d96a58897349689&"
+    },
+    {
+        "id": 36,
+        "name": "Piko",
+        "power": "Expert gamer",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642987958393/Piko.webp?ex=65dde13e&is=65cb6c3e&hm=751c5941421421008f713879ec4f6b4cbeea34a37e8ee6696715058ed8a81385&"
+    },
+    {
+        "id": 37,
+        "name": "Crying Man",
+        "power": "Giant Bamboo Dragonfly",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952643533213726/Crying_Man_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=29082949681b661136f1f066302509ed493c0f6c99ce22b5d402ea224e0c4c76&"
+    },
+    {
+        "id": 38,
+        "name": "Trap Tengu",
+        "power": "Expert trapper",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952644145578024/TrapTengu.webp?ex=65dde13e&is=65cb6c3e&hm=977f7929f454e8281eeb72451f55b94fb9235284c3f6edff413a5864a18b0164&"
+    },
+    {
+        "id": 39,
+        "name": "Captain Mizuki",
+        "power": "Weapon Transformation",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952645411995739/Mizuki_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=9c7db262aa2d8ea0f584827fc32cfa60560d1644aad20f9771f093350558e24b&"
+    },
+    {
+        "id": 40,
+        "name": "Lily of the Three Section Staff",
+        "power": "Three Section Staff",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952646041149470/Lily_nivon.webp?ex=65dde13e&is=65cb6c3e&hm=668b937a0b44e8c2c3c489d91deb60065885cd739aa8d00b2a12c26e38f86f79&"
+    },
+    {
+        "id": 41,
+        "name": "Bone",
+        "power": "High Bone Density",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952646871744573/Bone_Icon.webp?ex=65dde13f&is=65cb6c3f&hm=2115250cf75f813a634a2f8ae213508761c9889293505f46fdf179a42b0242a2&"
+    },
+    {
+        "id": 42,
+        "name": "Pineapple",
+        "power": "Pineapple Attacks",
+        "votes": 999,
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952647668535326/Pineapple.webp?ex=65dde13f&is=65cb6c3f&hm=d640019fb098de1124d73a873da79639fc793fbd913e604bf927fed3b5115292&"
+    },
+    {
+        "id": 43,
+        "name": "Monster Roper Shell",
+        "power": "Rope Manipulation",
+        "votes": 999,
+        "rank": "B",
+        "image": ""
+    },
+    {
+        "id": 44,
+        "name": "Tanktop Tiger",
+        "power": "Physical Strength",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 45,
+        "name": "D-Pad",
+        "power": "Gaming Skills",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 46,
+        "name": "Funeral Suspenders",
+        "power": "Funeral-related Abilities",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 47,
+        "name": "Feed Battler Futoshi",
+        "power": "Eating Contest Skills",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 48,
+        "name": "Battery Man",
+        "power": "Electricity Manipulation",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 49,
+        "name": "Red Muffler",
+        "power": "Fire Manipulation",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 50,
+        "name": "Armored Chief Clerk",
+        "power": "Administrative Skills",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
+    },
+    {
+        "id": 51,
+        "name": "Gearsper",
+        "power": "Gear Manipulation",
+        "votes": 999,
+        "rank": "C",
+        "image": ""
     }
 ]
