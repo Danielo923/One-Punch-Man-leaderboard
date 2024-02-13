@@ -1,7 +1,10 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
-
+  .top {
+      background-color: rgb(255, 255, 255);
+  }
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -52,6 +55,7 @@ body {
     display: flex;
     margin-top: 2%;
     margin-left: 2%;
+    margin-bottom: 2%;
     width: 600px;
     border-radius: 10px;
     border: #adadad solid;
@@ -82,6 +86,7 @@ body {
     margin-top: 2%;
     margin-left: auto;
     margin-right: 2%;
+    margin-bottom: 2%;
     width: 400px;
     padding: 20px;
     padding-top: 0%;
@@ -102,4 +107,62 @@ body {
 
 .card2 p {
     color: #3d3939;
+}
+.Devider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: small;
+}
+.Devider img {
+    width: 85px;
+    height: auto;
+    margin: 0 auto;
+}
+.secondpart {
+    background-color: #535050;
+    margin: 0%;
+}
+.card3 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    border: #ffffff solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #5e5e5e;
+}
+
+.card3 img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card3-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card3 h2 {
+    color: #333;
+}
+
+.card3 p {
+    color: #3d3939;
+}
+.footer {
+    background-color: rgb(223, 222, 245);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.footer img {
+    width: 85px;
+    height: auto;
 }
