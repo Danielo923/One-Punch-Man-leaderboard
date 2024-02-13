@@ -17,6 +17,7 @@ function getHeroes() {
 }
 
 function leaderboard() {
+    let data;
     if (localStorage.getItem("data")) {
         console.log("localstorage");
         data = localStorage.getItem("data");
@@ -28,10 +29,10 @@ function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
-            <td>${item.name}</td>
-            <td class="hero-power">${item.power}</td>
+            <td class="hero-image"><img src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td class="hero-name">${item.name}</td>
             <td class="hero-rank">${item.rank}</td>
-            `;
+        `;
         leaderboardElement.appendChild(listItem);
     });
 }
