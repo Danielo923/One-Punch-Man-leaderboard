@@ -22,7 +22,7 @@
     },
     {
         "id": 4,
-        "name": "Genos",
+        "name": "Demon Cyborg",
         "power": "Cyborg",
         "votes": 999,
         "rank": "S"
@@ -36,9 +36,9 @@
     },
     {
         "id": 6,
-        "name": "Silver Fang",
-        "power": "Martial Arts",
-        "votes": 999,
+        "name": "Shadow",
+        "power": "Atomic Energy",
+        "votes": 0,
         "rank": "S"
     },
     {
@@ -50,93 +50,114 @@
     },
     {
         "id": 8,
-        "name": "Child Emperor",
-        "power": "Genius",
-        "votes": 999,
-        "rank": "S"
-    },
-    {
-        "id": 9,
         "name": "King",
         "power": "Luck",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Zombieman",
         "power": "Immortality",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Drive Knight",
         "power": "Cyborg",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Pig God",
         "power": "Eating",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 13,
+        "id": 12,
         "name": "Superalloy Darkshine",
         "power": "Superhuman Strength",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 14,
-        "name": "Watchdog",
-        "power": "Dog",
-        "votes": 999,
-        "rank": "S"
-    },
-    {
-        "id": 15,
-        "name": "Flashy Flash",
-        "power": "Superhuman Speed",
-        "votes": 999,
-        "rank": "S"
-    },
-    {
-        "id": 16,
-        "name": "Metal Bat",
-        "power": "Superhuman Strength",
-        "votes": 999,
-        "rank": "S"
-    },
-    {
-        "id": 17,
-        "name": "Tanktop Master",
-        "power": "Superhuman Strength",
-        "votes": 999,
-        "rank": "S"
-    },
-    {
-        "id": 18,
+        "id": 13,
         "name": "Metal Knight",
         "power": "Robotics",
         "votes": 999,
         "rank": "S"
     },
     {
-        "id": 19,
+        "id": 14,
         "name": "Blizzard",
         "power": "Telekinesis",
         "votes": 999,
         "rank": "B"
     },
     {
-        "id": 20,
-        "name": "Snek",
-        "power": "Martial Arts",
+        "id": 15,
+        "name": "Sweet Mask",
+        "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "S" 
+        "rank": "A"
+    },
+    {
+        "id": 16,
+        "name": "Iaian",
+        "power": "Swordsmanship",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 17,
+        "name": "Okamaitachi",
+        "power": "Swordsmanship",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 18,
+        "name": "Bushidrill",
+        "power": "Swordsmanship",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 19,
+        "name": "Heavy Tank Loincloth",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 20,
+        "name": "Blue Fire",
+        "power": "Pyrokinesis",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 21,
+        "name": "Death Gatling",
+        "power": "Marksmanship",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 22,
+        "name": "Stinger",
+        "power": "Swordsmanship",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 23,
+        "name": "Magic Trick Man",
+        "power": "Magic",
+        "votes": 999,
+        "rank": "A"
     }
 ]
