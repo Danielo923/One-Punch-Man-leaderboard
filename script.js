@@ -1,3 +1,5 @@
+let sortFilter = "1"
+
 function getHeroes() {
     fetch('../heroes.json')
         .then(response => {
@@ -7,6 +9,9 @@ function getHeroes() {
             return response.json();
         })
         .then(data => {
+            data.sort(function(a, b) {
+                return b.rating - a.rating;
+            });
             data = localStorage.setItem("data", JSON.stringify(data));
             return data;
         })
@@ -48,6 +53,14 @@ function leaderboard() {
         `;
         leaderboardElement.appendChild(listItem);
     }
+}
+
+function button(buttonId) {
+    document.getElementById(`button1`).innerHTML = "1";
+    document.getElementById(`button2`).innerHTML = "2";
+    document.getElementById(`button3`).innerHTML = "3";
+    const button = document.getElementById(`button${buttonId}`);
+    button.innerHTML = "Selected!";
 }
 
 // localStorage.clear()
