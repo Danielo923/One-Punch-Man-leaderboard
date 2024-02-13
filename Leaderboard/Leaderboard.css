@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
 .top {
     background-color: rgb(255, 255, 255);
 }
@@ -49,10 +48,6 @@ body {
     color: rgb(112, 112, 200);
 }
 
-.hero-card {
-
-}
-
 .herocard {
     margin-top: 2%;
     margin-left: 2%;
@@ -62,11 +57,31 @@ body {
     border: #adadad solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
-
+    align-items: center;
+    justify-content: center;
 }
+
 .hero-card img {
-        border-radius: 100px;
-        max-width: 50px;
-        width: 100%;
-        height: auto;
+    border-radius: 100px;
+    max-width: 50px;
+    width: 100%;
+    height: auto;
+}
+.Leaderboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elite-hero-card {
+    margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 600px;
+        border-radius: 10px;
+        border: #adadad solid;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f1f0f0;
+        align-items: center;
+        justify-content: center;
 }
