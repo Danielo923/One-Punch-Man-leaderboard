@@ -19,7 +19,7 @@ function getHeroes() {
 function leaderboard() {
     if (localStorage.getItem("data")) {
         console.log("localstorage")
-        data = JSON.parse(localStorage.getItem("data"));
+        data = localStorage.getItem("data");
     } else {
         data = JSON.stringify(getHeroes());
     }
