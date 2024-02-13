@@ -12,5 +12,131 @@
         "power": "Cyclist for Justice",
         "votes": 999,
         "rank": "S"
+    },
+    {
+        "id": 3,
+        "name": "Saitama",
+        "power": "One Punch",
+        "votes": 999,
+        "rank": "A"
+    },
+    {
+        "id": 4,
+        "name": "Genos",
+        "power": "Cyborg",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 5,
+        "name": "Tornado",
+        "power": "Telekinesis",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 6,
+        "name": "Silver Fang",
+        "power": "Martial Arts",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 7,
+        "name": "Atomic Samurai",
+        "power": "Swordsmanship",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 8,
+        "name": "Child Emperor",
+        "power": "Genius",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 9,
+        "name": "King",
+        "power": "Luck",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 10,
+        "name": "Zombieman",
+        "power": "Immortality",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 11,
+        "name": "Drive Knight",
+        "power": "Cyborg",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 12,
+        "name": "Pig God",
+        "power": "Eating",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 13,
+        "name": "Superalloy Darkshine",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 14,
+        "name": "Watchdog",
+        "power": "Dog",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 15,
+        "name": "Flashy Flash",
+        "power": "Superhuman Speed",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 16,
+        "name": "Metal Bat",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 17,
+        "name": "Tanktop Master",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 18,
+        "name": "Metal Knight",
+        "power": "Robotics",
+        "votes": 999,
+        "rank": "S"
+    },
+    {
+        "id": 19,
+        "name": "Blizzard",
+        "power": "Telekinesis",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 20,
+        "name": "Snek",
+        "power": "Martial Arts",
+        "votes": 999,
+        "rank": "S" 
     }
 ]
