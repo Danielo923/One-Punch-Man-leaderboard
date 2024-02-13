@@ -125,6 +125,8 @@ main {
     width: 300px;
     height: auto;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .top3-hero-card {
     display: flex;
@@ -138,6 +140,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
     text-align: center;
+    align-items: center;
 }
 .top3herocard {
     display: flex;
@@ -146,4 +149,8 @@ main {
 }
 .top3-hero-card:nth-child(2) {
     order: -1;
+    margin-top: 120%;
+}
+.top3-hero-card:nth-child(3) {
+    margin-top: 120%;
 }
