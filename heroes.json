@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Pablito",
+        "name": "PaBlito",
         "power": "Burritos of Justice",
         "votes": 999,
         "rank": "S"
@@ -22,8 +22,8 @@
     },
     {
         "id": 4,
-        "name": "Demon Cyborg",
-        "power": "Cyborg",
+        "name": "Demon CyBorg",
+        "power": "CyBorg",
         "votes": 999,
         "rank": "S"
     },
@@ -32,7 +32,8 @@
         "name": "Tornado",
         "power": "Telekinesis",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://static.wikia.nocookie.net/onepunchman/images/b/b6/Tats_Icon.png/revision/latest/scale-to-width-down/144?cb=20191119041759"
     },
     {
         "id": 6,
@@ -57,7 +58,7 @@
     },
     {
         "id": 9,
-        "name": "Zombieman",
+        "name": "ZomBieman",
         "power": "Immortality",
         "votes": 999,
         "rank": "S"
@@ -65,7 +66,7 @@
     {
         "id": 10,
         "name": "Drive Knight",
-        "power": "Cyborg",
+        "power": "CyBorg",
         "votes": 999,
         "rank": "S"
     },
@@ -74,7 +75,8 @@
         "name": "Pig God",
         "power": "Eating",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://static.wikia.nocookie.net/onepunchman/images/e/ec/Pig_God_Icon.png/revision/latest/scale-to-width-down/144?cb=20191121024958"
     },
     {
         "id": 12,
@@ -86,7 +88,7 @@
     {
         "id": 13,
         "name": "Metal Knight",
-        "power": "Robotics",
+        "power": "RoBotics",
         "votes": 999,
         "rank": "S"
     },
@@ -149,7 +151,7 @@
     {
         "id": 22,
         "name": "Stinger",
-        "power": "Swordsmanship",
+        "power": "Spearsmanship",
         "votes": 999,
         "rank": "A"
     },
@@ -159,5 +161,37 @@
         "power": "Magic",
         "votes": 999,
         "rank": "A"
+    },
+    {
+        "id": 24,
+        "name": "Eyelaches",
+        "power": "Eyelash curlers",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 25,
+        "name": "Mountain Ape",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 26,
+        "name": "Mad Devil Yankee",
+        "power": "Enhanced DuraBility and Endurance",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 27,
+        "name": "Wild Horn",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 28,
+        "name": "
     }
 ]
