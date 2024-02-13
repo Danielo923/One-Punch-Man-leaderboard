@@ -1,4 +1,4 @@
-let sortFilter = "1"
+let sortFilter = null;
 
 function getHeroes() {
     fetch('../heroes.json')
@@ -21,6 +21,16 @@ function getHeroes() {
         });
 }
 
+function sort(data) {
+    if (sortFilter != null) {
+        data = data.filter(function(item) {
+            return item.rank === sortFilter;
+        });
+        return JSON.stringify(data);
+    }
+    return JSON.stringify(data);
+}
+
 function leaderboard() {
     let data;
     if (localStorage.getItem("data")) {
@@ -29,9 +39,13 @@ function leaderboard() {
     } else {
         data = getHeroes();
     }
+    data = sort(JSON.parse(data));
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
     const eliteLeaderboardElement = document.getElementById('eliteLeaderboard');
     const leaderboardElement = document.getElementById('leaderboard');
+    Top3LeaderboardElement.innerHTML = '';
+    eliteLeaderboardElement.innerHTML = '';
+    leaderboardElement,innerHTML = '';
     for (let i = 0; i < 3; i++) {
         const item = JSON.parse(data)[i];
         const listItem = document.createElement('tr');
@@ -68,11 +82,17 @@ function leaderboard() {
 }
 
 function button(buttonId) {
-    document.getElementById(`button1`).innerHTML = "1";
-    document.getElementById(`button2`).innerHTML = "2";
-    document.getElementById(`button3`).innerHTML = "3";
+    document.getElementById(`button1`).innerHTML = "clear";
+    document.getElementById(`button2`).innerHTML = "S";
+    document.getElementById(`button3`).innerHTML = "A";
     const buttonElement = document.getElementById(`button${buttonId}`);
+    if (buttonId === 1) {
+        sortFilter = null;
+    } else {
+        sortFilter = buttonElement.innerHTML;
+    }
     buttonElement.innerHTML = "Selected!";
+    leaderboard();
 }
 
 // localStorage.clear()
