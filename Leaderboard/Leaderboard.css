@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
 .top {
     background-color: rgb(255, 255, 255);
 }
@@ -67,21 +68,48 @@ body {
     width: 100%;
     height: auto;
 }
+
 .Leaderboard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .elite-hero-card {
+    display: flex;
+    flex-direction: column;
     margin-top: 2%;
-        margin-left: 2%;
-        margin-bottom: 2%;
-        width: 600px;
-        border-radius: 10px;
-        border: #adadad solid;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        background-color: #f1f0f0;
-        align-items: center;
-        justify-content: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    border: #303030 solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.elite-hero-card:nth-child(1) {
+    border: rgb(161, 119, 1) solid;
+    background-color: rgb(216, 175, 61);
+}
+
+.elite-hero-card:nth-child(2) {
+    border: rgb(255, 251, 251) solid;
+    background-color: rgb(192, 192, 192);
+}
+
+main {
+    overflow: hidden;
+    position: relative;
+}
+
+.transparent-bg {
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    width: 100%;
 }
