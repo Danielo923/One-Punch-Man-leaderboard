@@ -1,0 +1,1 @@
+Most information in the heroes.json added. A lot of changes with The styling. And the 1ste leaderboard is almost finished.
