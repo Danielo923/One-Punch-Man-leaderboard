@@ -24,7 +24,8 @@ function leaderboard() {
         data = JSON.stringify(getHeroes());
     }
     const leaderboardElement = document.getElementById('leaderboard');
-    leaderboardElement.innerHTML = data
+    leaderboardElement.innerHTML = data;
+    console.log(JSON.parse(data));
 }
 
 // localStorage.clear()
