@@ -340,8 +340,8 @@
         "name": "Monster Roper Shell",
         "power": "Rope Manipulation",
         "votes": 999,
-        "rank": "B",
-        "image": ""
+        "rank": "C",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956997614768128/Binding_Shell_Icon.webp?ex=65dde54c&is=65cb704c&hm=12b5d845b2f0d6263729272b82423a9f3efb7b5d2ee096d7c85eade4d9122a73&"
     },
     {
         "id": 44,
@@ -349,7 +349,7 @@
         "power": "Physical Strength",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998063693824/Tanktop_Tiger_Icon.webp?ex=65dde54c&is=65cb704c&hm=23a1d24a5c8ce11dc0a8df8f8897d8ff36f6d65a6bcf090c51a056a8af8bca37&"
     },
     {
         "id": 45,
@@ -357,7 +357,7 @@
         "power": "Gaming Skills",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998512353310/DPad_Icon_copy.webp?ex=65dde54c&is=65cb704c&hm=800ba38bb8689f47456ecf18b24a64cd0037e5180258b5fd30ea3a23f0190610&"
     },
     {
         "id": 46,
@@ -365,7 +365,7 @@
         "power": "Funeral-related Abilities",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998743031869/Funeral_suspenders.webp?ex=65dde54c&is=65cb704c&hm=2a788a9b2d74e11b4d62c5f2fd2ee6ceb9bf56f1736790a03c047bd46d28dd46&"
     },
     {
         "id": 47,
@@ -373,7 +373,7 @@
         "power": "Eating Contest Skills",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999020118036/Futoshi_Icon.webp?ex=65dde54c&is=65cb704c&hm=4135160c260a047ac7c0bf73f69f7de4d29fbf8016217e2cbd1ef86566c1af86&"
     },
     {
         "id": 48,
@@ -381,7 +381,7 @@
         "power": "Electricity Manipulation",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999447941140/Battery_Man_Icon.webp?ex=65dde54c&is=65cb704c&hm=dbf95b0c76548005d76307d248a71aaddfc350ceced11e990e9b8ec3b1bb8129&"
     },
     {
         "id": 49,
@@ -389,7 +389,7 @@
         "power": "Fire Manipulation",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999871430686/Red_Muffler_Icon.webp?ex=65dde54c&is=65cb704c&hm=fdc67c0fbbdd4dcc21534d925e4393f2fab531bd5ad497a01575a22adb674b71&"
     },
     {
         "id": 50,
@@ -397,7 +397,7 @@
         "power": "Administrative Skills",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206957000353914880/Armored_Chief_Clerk_icon.webp?ex=65dde54d&is=65cb704d&hm=9a5b69bac9abcb8c1cdbd45c22ab93721ce0fdb2206cbb63e51764a31a29f34c&"
     },
     {
         "id": 51,
@@ -405,6 +405,6 @@
         "power": "Gear Manipulation",
         "votes": 999,
         "rank": "C",
-        "image": ""
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206957000718553168/Gearsper_Icon.webp?ex=65dde54d&is=65cb704d&hm=7b8560f0e130ab330179ccd34c1a97aaf6320620c0a5276e6994ec988e7eedcc&"
     }
 ]
