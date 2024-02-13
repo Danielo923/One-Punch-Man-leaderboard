@@ -4,7 +4,8 @@
         "name": "Pablito",
         "power": "Burritos of Justice",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206922863203065886/7faaa942-5970-41f0-81d4-2199a6e3b244.jpg?ex=65ddc582&is=65cb5082&hm=3f5d2b2ae823d35841757afbcdf89a38e3ecff89f5cc4ac15c95ff44fbf4c092&"
     },
     {
         "id": 2,
@@ -211,6 +212,30 @@
     },
     {
         "id": 28,
-        "name": ""
+        "name": "Glasses",
+        "power": "Enhanced Durability and Endurance and Strength",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 29,
+        "name": "Pink Hornet",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 30,
+        "name": "Double Hole",
+        "power": "Superhuman Strength",
+        "votes": 999,
+        "rank": "B"
+    },
+    {
+        "id": 31,
+        "name": "Smell Master",
+        "power": "Enhanced Smell",
+        "votes": 999,
+        "rank": "B"
     }
 ]
