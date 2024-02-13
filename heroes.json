@@ -99,70 +99,80 @@
         "name": "Metal Knight",
         "power": "Robotics",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914729650561024/Bofoi.webp?ex=65ddbdee&is=65cb48ee&hm=60f533a68d8fef8bb086ecd2ba0ac92e2836324bf978da73a324f8904adc6410&"
     },
     {
         "id": 14,
         "name": "Blizzard",
         "power": "Telekinesis",
         "votes": 999,
-        "rank": "B"
+        "rank": "B",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730006945792/Fubuki_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=47174e4dbde540a801fbccde7f5700e2cf2678c1d40ad23fc22042d991698697&"
     },
     {
         "id": 15,
         "name": "Sweet Mask",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730359521320/Amai_Mask_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=32aafd93da2300856bb3200f53dc88750d736b845e04f133796503088ee38e56&"
     },
     {
         "id": 16,
         "name": "Iaian",
         "power": "Swordsmanship",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730732552273/Iaian_Manga_Profile.webp?ex=65ddbdef&is=65cb48ef&hm=4f96873cc5f462726e386042e0f2e7fd61ef95430cdf6dd279a6353e188f1d9a&"
     },
     {
         "id": 17,
         "name": "Okamaitachi",
         "power": "Swordsmanship",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914731143729152/Okamaitachi_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=59256e45e312225f31c987367904413dc41053c8a0931212a6932110ed32d85f&"
     },
     {
         "id": 18,
         "name": "Bushidrill",
         "power": "Swordsmanship",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914731634331658/Bushidrill_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=a9339930d4f5235bfd28428bbcabc5a060cbfe556d01c59c6d98780702dcf7e5&"
     },
     {
         "id": 19,
         "name": "Heavy Tank Loincloth",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732012085288/Heavy_Tank_Loincloth_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=785bae066cf6fcd1c269ad31a7cdc7353720a1e1e5fb2e17f9296a52803a0679&"
     },
     {
         "id": 20,
         "name": "Blue Fire",
         "power": "Pyrokinesis",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732335042560/Blue_Fire_icon.webp?ex=65ddbdef&is=65cb48ef&hm=5835fafa46ef60389a3a815346a17a853b2f838a1d8c6885812a90abfba3c4d4&"
     },
     {
         "id": 21,
         "name": "Death Gatling",
         "power": "Marksmanship",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732687228948/Death_Gatling_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=14696fbd616cd1a5b031b602ab826b16567ebf58a316548920e1d79a84b956e2&"
     },
     {
         "id": 22,
         "name": "Stinger",
         "power": "Spearsmanship",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914733106667530/Stinger_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=72dfd0aa62f28bdcd66b848f455c1833951f38fe2128a3fa8fa1c036b5a8c7ce&"
     },
     {
         "id": 23,
