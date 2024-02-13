@@ -35,7 +35,7 @@ function leaderboard() {
     for (let i = 0; i < 3; i++) {
         const item = JSON.parse(data)[i];
         const listItem = document.createElement('tr');
-        listItem.classList.add('elite-hero-card');
+        listItem.classList.add('top3-hero-card');
         listItem.innerHTML = `
             <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="top3-hero-name">${item.name}</td>
