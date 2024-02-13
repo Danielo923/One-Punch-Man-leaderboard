@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "PaBlito",
+        "name": "Pablito",
         "power": "Burritos of Justice",
         "votes": 999,
         "rank": "S"
@@ -11,21 +11,24 @@
         "name": "Mumen Rider",
         "power": "Cyclist for Justice",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909772650254366/License-less_Rider_profile.webp?ex=65ddb951&is=65cb4451&hm=c3bca20935bc054773ad804e5aeaa44c8b471372933da5f92f65a903306d6d3c&"
     },
     {
         "id": 3,
         "name": "Saitama",
         "power": "One Punch",
         "votes": 999,
-        "rank": "A"
+        "rank": "A",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909772964569148/Saitama_Icon.webp?ex=65ddb951&is=65cb4451&hm=17f5bf2b15414bf4f228bdf051d5836a72a9f664f3603d2f53c436e9e2588adc&"
     },
     {
         "id": 4,
-        "name": "Demon CyBorg",
-        "power": "CyBorg",
+        "name": "Demon Cyborg",
+        "power": "Cyborg",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909773358956584/Genos_Manga_Icon.webp?ex=65ddb951&is=65cb4451&hm=eb461609d69611387750a322be098f1b1f807869fc1d41f74462b46f25c5b76c&"
     },
     {
         "id": 5,
@@ -33,42 +36,47 @@
         "power": "Telekinesis",
         "votes": 999,
         "rank": "S",
-        "image": "https://static.wikia.nocookie.net/onepunchman/images/b/b6/Tats_Icon.png/revision/latest/scale-to-width-down/144?cb=20191119041759"
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909773782720572/Tats_Icon.webp?ex=65ddb951&is=65cb4451&hm=0136a70ca825b663fd18c5cea2ae1246aff9126688b9cafcc92941224e9156eb&"
     },
     {
         "id": 6,
         "name": "Shadow",
         "power": "Atomic Energy",
         "votes": 0,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774176976916/Shadow-LN-V1.webp?ex=65ddb951&is=65cb4451&hm=519b696c4eb80e0987a2cca0b42c6d79fa5adb1a247482b915be573cfc60a251&"
     },
     {
         "id": 7,
         "name": "Atomic Samurai",
         "power": "Swordsmanship",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774386434078/Atomic_Icon.webp?ex=65ddb951&is=65cb4451&hm=4cf248934d583bfdfc15797f61be4c6be837405c93eb7db7c3afe8465db3296f&"
     },
     {
         "id": 8,
         "name": "King",
         "power": "Luck",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774923300894/King_Icon.webp?ex=65ddb951&is=65cb4451&hm=ab9e7b3376a38662022fb417aceafb589c1a7721608d326b1322161d2b1f8f6e&"
     },
     {
         "id": 9,
         "name": "ZomBieman",
         "power": "Immortality",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775393198120/Zombie_Icon.webp?ex=65ddb951&is=65cb4451&hm=cd7c15d949d695b8c3be077d76b622c3dd98a050288c1b8c7cba8691161b79b9&"
     },
     {
         "id": 10,
         "name": "Drive Knight",
-        "power": "CyBorg",
+        "power": "Cyborg",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775926005760/Drive_Knight_Icon.webp?ex=65ddb951&is=65cb4451&hm=89c7ae762897f6aa06d37c0320eecdbd1acd628c06614a4d2baea29d99805c17&"
     },
     {
         "id": 11,
@@ -83,12 +91,13 @@
         "name": "Superalloy Darkshine",
         "power": "Superhuman Strength",
         "votes": 999,
-        "rank": "S"
+        "rank": "S",
+        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909806540095508/DS_Icon.webp?ex=65ddb959&is=65cb4459&hm=54766d11a8548f056414e2e33baa72440fb29c4bb5c0d1fb6202ab6583993787&"
     },
     {
         "id": 13,
         "name": "Metal Knight",
-        "power": "RoBotics",
+        "power": "Robotics",
         "votes": 999,
         "rank": "S"
     },
@@ -179,7 +188,7 @@
     {
         "id": 26,
         "name": "Mad Devil Yankee",
-        "power": "Enhanced DuraBility and Endurance",
+        "power": "Enhanced Durability and Endurance",
         "votes": 999,
         "rank": "B"
     },
