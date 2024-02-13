@@ -42,7 +42,7 @@ function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
-            <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td><img class="hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="hero-name">${item.name}</td>
             <td class="hero-rank">${item.rank}</td>
         `;
