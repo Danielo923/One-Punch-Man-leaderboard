@@ -37,9 +37,9 @@ function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
-            <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="elite-hero-name">${item.name}</td>
-            <td class="elite-hero-rank">${item.rank}</td>
+            <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td class="top3-hero-name">${item.name}</td>
+            <td class="top3-hero-rank">${item.rank}</td>
         `;
         Top3LeaderboardElement.appendChild(listItem);
     }
