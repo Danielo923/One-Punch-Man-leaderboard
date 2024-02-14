@@ -104,8 +104,8 @@ body {
     justify-content: space-around;
     width: 50px
 }
-.elieherocard img {
-    width: 300px;
+.eliteherocard img {
+    width: 140px;
     height: auto;
     border-radius: 10px;
     align-items: center;
