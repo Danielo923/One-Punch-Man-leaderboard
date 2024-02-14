@@ -3,19 +3,14 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 .transparent-bg {
-    background-image: url('../Hero_Association_Headquarters.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
     opacity: 0.2;
-}
-.top {
-    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .navbar {
@@ -59,14 +54,16 @@ body {
 .einde a:hover {
     color: rgb(112, 112, 200);
 }
+
 .card {
     display: flex;
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
-    width: 600px;
+
+    height: auto;
     border-radius: 10px;
-    border: #adadad solid;
+    border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
 }
@@ -87,4 +84,124 @@ body {
 
 .card p {
     color: #3d3939;
+}
+
+.card2 {
+    display: flex;
+    margin-left: 50px;
+    width: 400px;
+    padding: 20px;
+    padding-top: 0%;
+    border-radius: 10px;
+    border: rgb(112, 112, 200) solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+    margin-top: 0%;
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card2 h2 {
+    color: #333;
+}
+
+.card2 p {
+    color: #3d3939;
+}
+
+#profileimg {
+    border: rgb(112, 112, 200) solid;
+    width: 300px;
+    height: auto;
+}
+
+.profileimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.profileimg:nth-child(2) {
+    display: flex;
+    align-items: start;
+    
+}
+.profileimg:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    display: flex;
+    width: 400px;
+    height: 165px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 0%;
+    border-radius: 10px;
+    border: rgb(112, 112, 200) solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+}
+
+.card3 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card3 h2 {
+    color: #333;
+}
+
+.card3 p {
+    color: #3d3939;
+}
+.card4 {
+    display: flex;
+    width: 400px;
+    height: 165px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 0%;
+    border-radius: 10px;
+    border: rgb(112, 112, 200) solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+}
+
+.card4 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card4 h2 {
+    color: #333;
+}
+
+.card4 p {
+    color: #3d3939;
+}
+.card4hole {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: rgb(223, 222, 245);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer img {
+    width: 85px;
+    height: auto;
 }
