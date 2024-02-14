@@ -137,6 +137,7 @@ main {
     position: fixed;
     z-index: -1;
     top: 0;
+    height: 100%;
     width: 100%;
 }
 
@@ -274,13 +275,12 @@ main {
 
 .tooltip .tooltiptext {
     visibility: hidden;
+    width: 115px;
     background-color: #333;
     color: #fff;
-    text-align: center;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
     position: absolute;
-    z-index: 1;
     top: 50px;
     right: 0px;
     margin-top: -15px;
