@@ -53,6 +53,7 @@ async function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
         listItem.innerHTML = `
+            <td><h2 class="hero-placement">${i + 1}</h2></td>
             <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="top3-hero-name">${item.rank} | ${item.name}</td>
         `;
@@ -63,6 +64,7 @@ async function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
+            <td><h2 class="hero-placement">${i + 1}</h2></td>
             <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="elite-hero-name">${item.rank} | ${item.name}</td>
         `;
@@ -73,6 +75,7 @@ async function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
+            <td><h2 class="hero-placement">${i + 1}</h2></td>
             <td><img class="hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="hero-name">${item.rank} | ${item.name}</td>
         `;
@@ -97,6 +100,7 @@ function button(buttonId) {
 }
 
 function type(buttonId) {
+    console.log("type");
     document.getElementById(`type1`).innerHTML = "rating";
     document.getElementById(`type2`).innerHTML = "votes";
     const buttonElement = document.getElementById(`type${buttonId}`);
