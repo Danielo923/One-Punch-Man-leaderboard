@@ -236,3 +236,7 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+.larger-svg {
+    width: 32px;
+    height: 32px;
+}
