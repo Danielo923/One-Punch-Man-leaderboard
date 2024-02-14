@@ -10,7 +10,7 @@ function getHeroes() {
         })
         .then(data => {
             data.sort(function(a, b) {
-                return b.rating - a.rating;
+                return a.rating - b.rating;
             });
             data = localStorage.setItem("data", JSON.stringify(data));
             return data;
@@ -86,7 +86,7 @@ function button(buttonId) {
     document.getElementById(`button2`).innerHTML = "S";
     document.getElementById(`button3`).innerHTML = "A";
     const buttonElement = document.getElementById(`button${buttonId}`);
-    if (buttonId === 1) {
+    if (buttonId === "1") {
         sortFilter = null;
     } else {
         sortFilter = buttonElement.innerHTML;
