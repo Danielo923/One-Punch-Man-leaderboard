@@ -5,9 +5,6 @@ async function getHeroes() {
             throw new Error('Failed to fetch heroes');
         }
         const data = await response.json();
-        data.sort(function(a, b) {
-            return b[sortType] - a[sortType];
-        });
         localStorage.setItem("data", JSON.stringify(data));
         return data;
     } catch (error) {
@@ -22,6 +19,7 @@ async function showHeroProfile() {
     } else {
         data = await getHeroes();
     }
+    console.log(data);
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
     const hero = data.find(function(item) {
@@ -29,6 +27,6 @@ async function showHeroProfile() {
     });
     if (hero) {
         const profileimg = document.getElementById('profileimg');
-        profileimg.src = hero.img;
+        profileimg.src = hero.img; // Set the src attribute of profileimg to hero.img
     }
 }
