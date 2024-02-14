@@ -76,19 +76,33 @@ body {
     align-items: center;
 }
 
+.top3herocard img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 .elite-hero-card {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 25%;
     margin-bottom: 2%;
-    width: 400px;
+    width: 300px;
     border: #303030 solid;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
+    text-align: center;
     align-items: center;
-    justify-content: center;
+}
+
+.eliteherocard {
+    display: flex;
+    justify-content: space-around;
+    width: 50px
 }
 
 .top3-hero-card:nth-child(1) {
@@ -100,15 +114,12 @@ body {
     border: rgb(255, 251, 251) solid;
     background-color: rgb(192, 192, 192);
 }
+
 .top3-hero-card:nth-child(3) {
     border: rgb(138, 88, 39)solid;
     background-color: rgb(205, 127, 50);
 }
-.eliteherocard img {
-    max-width: 125px;
-    width: 100%;
-    height: auto;
-}
+
 main {
     overflow: hidden;
     position: relative;
@@ -121,6 +132,7 @@ main {
     top: 0;
     width: 100%;
 }
+
 .top3herocard img {
     width: 300px;
     height: auto;
@@ -128,6 +140,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 .top3-hero-card {
     display: flex;
     flex-direction: column;
@@ -142,15 +155,99 @@ main {
     text-align: center;
     align-items: center;
 }
+
 .top3herocard {
     display: flex;
     justify-content: space-around;
     width: 50px
 }
+
 .top3-hero-card:nth-child(2) {
     order: -1;
     margin-top: 120%;
 }
+
 .top3-hero-card:nth-child(3) {
     margin-top: 120%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#button1 {
+    display: block;
+        width: 100%;
+        border: none;
+        background-color: rgb(112, 112, 200);
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: #000000 solid;
+        border-radius: 100px;
+}
+
+#button2 {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(112, 112, 200);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #000000 solid;
+    border-radius: 100px;
+}
+
+
+#button3 {
+    display: block;
+        width: 100%;
+        border: none;
+        background-color: rgb(112, 112, 200);
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: #000000 solid;
+        border-radius: 100px;
+}
+#button4 {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(112, 112, 200);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #000000 solid;
+    border-radius: 100px;
+}
+#button5 {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(112, 112, 200);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #000000 solid;
+    border-radius: 100px;
 }
