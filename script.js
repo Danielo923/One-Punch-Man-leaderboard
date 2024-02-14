@@ -45,7 +45,7 @@ function leaderboard() {
     const leaderboardElement = document.getElementById('leaderboard');
     Top3LeaderboardElement.innerHTML = '';
     eliteLeaderboardElement.innerHTML = '';
-    leaderboardElement,innerHTML = '';
+    leaderboardElement.innerHTML = '';
     for (let i = 0; i < 3; i++) {
         const item = JSON.parse(data)[i];
         const listItem = document.createElement('tr');
