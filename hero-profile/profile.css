@@ -86,7 +86,7 @@ body {
     color: #3d3939;
 }
 
-.card2 {
+#card2 {
     display: flex;
     margin-left: 50px;
     width: 400px;
@@ -99,16 +99,16 @@ body {
     margin-top: 0%;
 }
 
-.card2 img {
+#card2 img {
     width: 100%;
     border-radius: 5px;
 }
 
-.card2 h2 {
+#card2 h2 {
     color: #333;
 }
 
-.card2 p {
+#card2 p {
     color: #3d3939;
 }
 
@@ -134,7 +134,7 @@ body {
     flex-direction: column;
 }
 
-.card3 {
+#card3 {
     display: flex;
     width: 400px;
     height: 165px;
@@ -148,19 +148,19 @@ body {
     background-color: #f1f0f0;
 }
 
-.card3 img {
+#card3 img {
     width: 100%;
     border-radius: 5px;
 }
 
-.card3 h2 {
+#card3 h2 {
     color: #333;
 }
 
-.card3 p {
+#card3 p {
     color: #3d3939;
 }
-.card4 {
+#card4 {
     display: flex;
     width: 400px;
     height: 165px;
@@ -174,16 +174,16 @@ body {
     background-color: #f1f0f0;
 }
 
-.card4 img {
+#card4 img {
     width: 100%;
     border-radius: 5px;
 }
 
-.card4 h2 {
+#card4 h2 {
     color: #333;
 }
 
-.card4 p {
+#card4 p {
     color: #3d3939;
 }
 .card4hole {

@@ -46,17 +46,23 @@ async function leaderboard() {
         const item = data[i];
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
+        listItem.onclick = function() {
+            window.location.href = `../hero-profile/profile.html?id=${item.id}`;
+        };
         listItem.innerHTML = `
-        <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-        <td class="top3-hero-name">${item.rank} | ${item.name}</td>
-        <td class="top3-hero-name">${sortType}: ${item[sortType]}</td>
-        <td><h2 class="hero-placement">${i + 1}</h2></td>
+            <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td class="top3-hero-name">${item.rank} | ${item.name}</td>
+            <td class="top3-hero-name">${sortType}: ${item[sortType]}</td>
+            <td><h2 class="hero-placement">${i + 1}</h2></td>
         `;
         Top3LeaderboardElement.appendChild(listItem);
     }
     for (let i = 3; i < 10; i++) {
         const item = data[i];
         const listItem = document.createElement('tr');
+        listItem.onclick = function() {
+            window.location.href = '../hero-profile/profile.html';
+        };
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
         <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
@@ -69,6 +75,10 @@ async function leaderboard() {
     for (let i = 10; i < data.length; i++) {
         const item = data[i];
         const listItem = document.createElement('tr');
+        listItem.onclick = function() {
+
+            window.location.href = '../hero-profile/profile.html';
+        };
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
             <td><h2 class="hero-placement">${i + 1}</h2></td>
