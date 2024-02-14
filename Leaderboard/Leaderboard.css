@@ -28,6 +28,15 @@ body {
     width: 85px;
     height: auto;
 }
+.midden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.midden h2 {
+margin-right: 10px;
+}
 
 .einde {
     display: flex;
@@ -104,6 +113,7 @@ body {
     justify-content: space-around;
     width: 50px
 }
+
 .eliteherocard img {
     width: 140px;
     height: auto;
@@ -186,82 +196,6 @@ main {
 
 }
 
-#button1 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: rgb(112, 112, 200);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #000000 solid;
-    border-radius: 100px;
-}
-
-#button2 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: rgb(112, 112, 200);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #000000 solid;
-    border-radius: 100px;
-}
-
-
-#button3 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: rgb(112, 112, 200);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #000000 solid;
-    border-radius: 100px;
-}
-
-#button4 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: rgb(112, 112, 200);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #000000 solid;
-    border-radius: 100px;
-}
-
-#button5 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: rgb(112, 112, 200);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #000000 solid;
-    border-radius: 100px;
-}
-
 .tooltip {
     position: absolute;
     right: 0;
@@ -297,6 +231,7 @@ main {
     width: 32px;
     height: 32px;
 }
+
 .footer {
     background-color: rgb(223, 222, 245);
     color: #000000;
@@ -310,4 +245,148 @@ main {
 .footer img {
     width: 85px;
     height: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-btn {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown-btn:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0a0a0a;
+}
+
+#button1 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#button1:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+#button2 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#button2:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+#button3 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#button3:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+#button4 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#button4:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+#button5 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#button5:hover {
+    background-color: rgb(112, 112, 200);
+    
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown2:hover .dropdown2-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown2-btn {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown2-btn:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+.dropdown2-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown2-content a:hover {
+    background-color: #0a0a0a;
 }
