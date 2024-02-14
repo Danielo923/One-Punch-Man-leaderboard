@@ -1,4 +1,5 @@
 let sortFilter = null;
+let sortType = "rating";
 
 async function getHeroes() {
     try {
@@ -10,7 +11,7 @@ async function getHeroes() {
         const data = await response.json();
         console.log("got data");
         data.sort(function(a, b) {
-            return b.rating - a.rating;
+            return b[sortType] - a[sortType];
         });
         localStorage.setItem("data", JSON.stringify(data));
         console.log(data);
@@ -95,7 +96,17 @@ function button(buttonId) {
     leaderboard();
 }
 
-document.addEventListener("keydown", function(event) {
+function type(buttonId) {
+    document.getElementById(`type1`).innerHTML = "rating";
+    document.getElementById(`type2`).innerHTML = "votes";
+    const buttonElement = document.getElementById(`type${buttonId}`);
+    sortFilter = buttonElement.innerHTML;
+    sortType = "Selected!";
+    console.log(sortType);
+    leaderboard();
+}
+
+document.addEventListener("keydown", function (event) {
     if (event.key === "c") {
         console.log("clear");
         localStorage.clear();
