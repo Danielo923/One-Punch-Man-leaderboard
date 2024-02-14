@@ -10,9 +10,9 @@ function getHeroes() {
         })
         .then(data => {
             data.sort(function(a, b) {
-                return a.rating - b.rating;
+                return b.rating - a.rating;
             });
-            data = localStorage.setItem("data", JSON.stringify(data));
+            localStorage.setItem("data", JSON.stringify(data));
             return data;
         })
         .catch(error => {
@@ -26,28 +26,28 @@ function sort(data) {
         data = data.filter(function(item) {
             return item.rank === sortFilter;
         });
-        return JSON.stringify(data);
+        return data;
     }
-    return JSON.stringify(data);
+    return data;
 }
 
 function leaderboard() {
     let data;
     if (localStorage.getItem("data")) {
         console.log("localstorage");
-        data = localStorage.getItem("data");
+        data = JSON.parse(localStorage.getItem("data"));
     } else {
         data = getHeroes();
     }
-    data = sort(JSON.parse(data));
+    data = sort(data);
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
     const eliteLeaderboardElement = document.getElementById('eliteLeaderboard');
     const leaderboardElement = document.getElementById('leaderboard');
     Top3LeaderboardElement.innerHTML = '';
     eliteLeaderboardElement.innerHTML = '';
-    leaderboardElement,innerHTML = '';
+    leaderboardElement.innerHTML = '';
     for (let i = 0; i < 3; i++) {
-        const item = JSON.parse(data)[i];
+        const item = data[i];
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
         listItem.innerHTML = `
@@ -58,7 +58,7 @@ function leaderboard() {
         Top3LeaderboardElement.appendChild(listItem);
     }
     for (let i = 3; i < 10; i++) {
-        const item = JSON.parse(data)[i];
+        const item = data[i];
         const listItem = document.createElement('tr');
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
@@ -69,7 +69,7 @@ function leaderboard() {
         eliteLeaderboardElement.appendChild(listItem);
     }
     for (let i = 10; i < data.length; i++) {
-        const item = JSON.parse(data)[i];
+        const item = data[i];
         const listItem = document.createElement('tr');
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
@@ -95,5 +95,11 @@ function button(buttonId) {
     leaderboard();
 }
 
-// localStorage.clear()
+document.addEventListener("keydown", function(event) {
+    if (event.key === "c") {
+        localStorage.clear();
+        leaderboard();
+    }
+});
+// localStorage.clear();
 leaderboard();
