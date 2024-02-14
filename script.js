@@ -1,24 +1,24 @@
 let sortFilter = null;
 
-function getHeroes() {
-    fetch('../heroes.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to fetch heroes');
-            }
-            return response.json();
-        })
-        .then(data => {
-            data.sort(function(a, b) {
-                return b.rating - a.rating;
-            });
-            localStorage.setItem("data", JSON.stringify(data));
-            return data;
-        })
-        .catch(error => {
-            console.error('Error fetching heroes:', error);
-            throw error;
+async function getHeroes() {
+    try {
+        console.log("fetching");
+        const response = await fetch('../heroes.json');
+        if (!response.ok) {
+            throw new Error('Failed to fetch heroes');
+        }
+        const data = await response.json();
+        console.log("got data");
+        data.sort(function(a, b) {
+            return b.rating - a.rating;
         });
+        localStorage.setItem("data", JSON.stringify(data));
+        console.log(data);
+        return data;
+    } catch (error) {
+        console.error('Error fetching heroes:', error);
+        throw error;
+    }
 }
 
 function sort(data) {
@@ -31,13 +31,14 @@ function sort(data) {
     return data;
 }
 
-function leaderboard() {
+async function leaderboard() {
     let data;
     if (localStorage.getItem("data")) {
         console.log("localstorage");
         data = JSON.parse(localStorage.getItem("data"));
     } else {
-        data = getHeroes();
+        data = await getHeroes();
+        console.log(data);
     }
     data = sort(data);
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
@@ -96,6 +97,7 @@ function button(buttonId) {
 
 document.addEventListener("keydown", function(event) {
     if (event.key === "c") {
+        console.log("clear");
         localStorage.clear();
         leaderboard();
     }
