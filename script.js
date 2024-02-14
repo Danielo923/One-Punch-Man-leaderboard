@@ -49,6 +49,7 @@ async function leaderboard() {
         listItem.innerHTML = `
         <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
         <td class="top3-hero-name">${item.rank} | ${item.name}</td>
+        <td class="top3-hero-name">${sortType}: ${item[sortType]}</td>
         <td><h2 class="hero-placement">${i + 1}</h2></td>
         `;
         Top3LeaderboardElement.appendChild(listItem);
@@ -60,6 +61,7 @@ async function leaderboard() {
         listItem.innerHTML = `
         <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
         <td class="elite-hero-name">${item.rank} | ${item.name}</td>
+        <td class="elite-hero-name">${sortType}: ${item[sortType]}</td>
         <td><h2 class="hero-placement">${i + 1}</h2></td>
         `;
         eliteLeaderboardElement.appendChild(listItem);
@@ -72,6 +74,7 @@ async function leaderboard() {
             <td><h2 class="hero-placement">${i + 1}</h2></td>
             <td><img class="hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
             <td class="hero-name">${item.rank} | ${item.name}</td>
+            <td class="hero-name">${sortType}: ${item[sortType]}</td>
         `;
         leaderboardElement.appendChild(listItem);
     }
