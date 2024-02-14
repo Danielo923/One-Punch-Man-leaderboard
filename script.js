@@ -99,7 +99,7 @@ function button(buttonId) {
     leaderboard();
 }
 
-function type(buttonId) {
+function leaderboardType(buttonId) {
     console.log("type");
     document.getElementById(`type1`).innerHTML = "rating";
     document.getElementById(`type2`).innerHTML = "votes";
