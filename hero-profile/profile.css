@@ -59,3 +59,32 @@ body {
 .einde a:hover {
     color: rgb(112, 112, 200);
 }
+.card {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 600px;
+    border-radius: 10px;
+    border: #adadad solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card p {
+    color: #3d3939;
+}

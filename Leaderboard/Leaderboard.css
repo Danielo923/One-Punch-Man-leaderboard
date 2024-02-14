@@ -251,6 +251,7 @@ main {
     position: relative;
     display: inline-block;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .dropdown-content {
@@ -350,6 +351,7 @@ main {
     position: relative;
     display: inline-block;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .dropdown2-content {
@@ -369,7 +371,7 @@ main {
 .dropdown2-btn {
     background-color: #000000;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
@@ -389,4 +391,25 @@ main {
 
 .dropdown2-content a:hover {
     background-color: #0a0a0a;
+}
+#type1 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#type1:hover {
+    background-color: rgb(112, 112, 200);
+    ;
+}
+
+#type2 {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 10px;
+}
+
+#type2:hover {
+    background-color: rgb(112, 112, 200);
+
 }
