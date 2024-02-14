@@ -3,25 +3,21 @@ let sortType = "rating";
 
 async function getHeroes() {
     try {
-        console.log("fetching");
         const response = await fetch('../heroes.json');
         if (!response.ok) {
             throw new Error('Failed to fetch heroes');
         }
         const data = await response.json();
-        console.log("got data");
         data.sort(function(a, b) {
             return b[sortType] - a[sortType];
         });
         localStorage.setItem("data", JSON.stringify(data));
-        console.log(data);
         return data;
     } catch (error) {
         console.error('Error fetching heroes:', error);
         throw error;
     }
 }
-
 function sort(data) {
     if (sortFilter != null) {
         data = data.filter(function(item) {
@@ -35,11 +31,9 @@ function sort(data) {
 async function leaderboard() {
     let data;
     if (localStorage.getItem("data")) {
-        console.log("localstorage");
         data = JSON.parse(localStorage.getItem("data"));
     } else {
         data = await getHeroes();
-        console.log(data);
     }
     data = sort(data);
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
@@ -53,9 +47,9 @@ async function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
         listItem.innerHTML = `
-            <td><h2 class="hero-placement">${i + 1}</h2></td>
-            <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="top3-hero-name">${item.rank} | ${item.name}</td>
+        <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+        <td class="top3-hero-name">${item.rank} | ${item.name}</td>
+        <td><h2 class="hero-placement">${i + 1}</h2></td>
         `;
         Top3LeaderboardElement.appendChild(listItem);
     }
@@ -64,9 +58,9 @@ async function leaderboard() {
         const listItem = document.createElement('tr');
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
-            <td><h2 class="hero-placement">${i + 1}</h2></td>
-            <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="elite-hero-name">${item.rank} | ${item.name}</td>
+        <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+        <td class="elite-hero-name">${item.rank} | ${item.name}</td>
+        <td><h2 class="hero-placement">${i + 1}</h2></td>
         `;
         eliteLeaderboardElement.appendChild(listItem);
     }
@@ -100,13 +94,12 @@ function button(buttonId) {
 }
 
 function leaderboardType(buttonId) {
-    console.log("type");
     document.getElementById(`type1`).innerHTML = "rating";
-    document.getElementById(`type2`).innerHTML = "votes";
+    document.getElementById(`type2`).innerHTML = "upvotes";
     const buttonElement = document.getElementById(`type${buttonId}`);
-    sortFilter = buttonElement.innerHTML;
-    sortType = "Selected!";
-    console.log(sortType);
+    sortType = buttonElement.innerHTML;
+    buttonElement.innerHTML = "Selected!";
+    localStorage.clear();
     leaderboard();
 }
 
