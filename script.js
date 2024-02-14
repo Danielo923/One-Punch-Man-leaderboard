@@ -52,8 +52,7 @@ function leaderboard() {
         listItem.classList.add('top3-hero-card');
         listItem.innerHTML = `
             <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="top3-hero-name">${item.name}</td>
-            <td class="top3-hero-rank">${item.rank}</td>
+            <td class="top3-hero-name">${item.rank} | ${item.name}</td>
         `;
         Top3LeaderboardElement.appendChild(listItem);
     }
@@ -63,8 +62,7 @@ function leaderboard() {
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
             <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="elite-hero-name">${item.name}</td>
-            <td class="elite-hero-rank">${item.rank}</td>
+            <td class="elite-hero-name">${item.rank} | ${item.name}</td>
         `;
         eliteLeaderboardElement.appendChild(listItem);
     }
@@ -74,8 +72,7 @@ function leaderboard() {
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
             <td><img class="hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
-            <td class="hero-name">${item.name}</td>
-            <td class="hero-rank">${item.rank}</td>
+            <td class="hero-name">${item.rank} | ${item.name}</td>
         `;
         leaderboardElement.appendChild(listItem);
     }
@@ -85,6 +82,8 @@ function button(buttonId) {
     document.getElementById(`button1`).innerHTML = "clear";
     document.getElementById(`button2`).innerHTML = "S";
     document.getElementById(`button3`).innerHTML = "A";
+    document.getElementById(`button4`).innerHTML = "B";
+    document.getElementById(`button5`).innerHTML = "C";
     const buttonElement = document.getElementById(`button${buttonId}`);
     if (buttonId === "1") {
         sortFilter = null;
