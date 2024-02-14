@@ -8,7 +8,7 @@ async function getHeroes() {
             throw new Error('Failed to fetch heroes');
         }
         const data = await response.json();
-        data.sort(function(a, b) {
+        data.sort(function (a, b) {
             return b[sortType] - a[sortType];
         });
         localStorage.setItem("data", JSON.stringify(data));
@@ -20,7 +20,7 @@ async function getHeroes() {
 }
 function sort(data) {
     if (sortFilter != null) {
-        data = data.filter(function(item) {
+        data = data.filter(function (item) {
             return item.rank === sortFilter;
         });
         return data;
@@ -55,7 +55,7 @@ async function leaderboard() {
         const star = starRating(item.rating)
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
-        listItem.onclick = function() {
+        listItem.onclick = function () {
             window.location.href = `../hero-profile/profile.html?id=${item.id}`;
         };
         listItem.innerHTML = `
@@ -74,7 +74,7 @@ async function leaderboard() {
         const item = data[i];
         const star = starRating(item.rating)
         const listItem = document.createElement('tr');
-        listItem.onclick = function() {
+        listItem.onclick = function () {
             window.location.href = '../hero-profile/profile.html';
         };
         listItem.classList.add('elite-hero-card');
@@ -94,7 +94,7 @@ async function leaderboard() {
         const item = data[i];
         const star = starRating(item.rating)
         const listItem = document.createElement('tr');
-        listItem.onclick = function() {
+        listItem.onclick = function () {
 
             window.location.href = '../hero-profile/profile.html';
         };

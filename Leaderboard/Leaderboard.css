@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Sans-serif;
 }
 
 .top {
@@ -186,8 +186,13 @@ main {
 
 }
 
-.top3-hero-card:nth-child(3) {
-
+.top3-hero-card td:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+.top3-hero-card td:nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .buttons {
