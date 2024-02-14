@@ -425,3 +425,7 @@ main {
 .star-elite {
 color: rgb(0, 204, 255);
 }
+.bi {
+    width: 32px;
+    height: 32px;
+}
