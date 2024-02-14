@@ -297,3 +297,17 @@ main {
     width: 32px;
     height: 32px;
 }
+.footer {
+    background-color: rgb(223, 222, 245);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 85px;
+    height: auto;
+}

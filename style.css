@@ -2,20 +2,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.transparent-bg {
-    background-image: url('../Hero_Association_Headquarters.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    opacity: 0.2;
-}
-  .top {
-      background-color: rgb(255, 255, 255);
-  }
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -176,4 +162,12 @@ body {
 .footer img {
     width: 85px;
     height: auto;
+}
+.transparent-bg {
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
