@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
     display: flex;
@@ -158,6 +161,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;align-items: center;
+    margin-top: auto;
 }
 .footer img {
     width: 85px;
