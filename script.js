@@ -79,7 +79,7 @@ async function leaderboard() {
         const star = starRating(item.rating)
         const listItem = document.createElement('tr');
         listItem.onclick = function () {
-            window.location.href = '../hero-profile/profile.html';
+            window.location.href = `../hero-profile/profile.html?id=${item.id}`;
         };
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
@@ -99,7 +99,7 @@ async function leaderboard() {
         const star = starRating(item.rating)
         const listItem = document.createElement('tr');
         listItem.onclick = function () {
-            window.location.href = '../hero-profile/profile.html';
+            window.location.href = `../hero-profile/profile.html?id=${item.id}`;
         };
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
