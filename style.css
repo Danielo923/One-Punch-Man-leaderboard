@@ -50,13 +50,15 @@ body {
 .top {
     display: flex;
 }
-
+.wanted {
+    display: flex;
+}
 .card {
     display: flex;
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
-    width: 600px;
+    width: 700px;
     border-radius: 10px;
     border: #adadad solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -154,6 +156,15 @@ body {
 
 .card3 p {
     color: #3d3939;
+}
+.Devider2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: small;
+    height: 10px;
 }
 .transparent-bg {
     opacity: 0.2;
