@@ -78,7 +78,7 @@
         "rank": "S",
         "rating": 6800,
         "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774386434078/Atomic_Icon.webp?ex=65ddb951&is=65cb4451&hm=4cf248934d583bfdfc15797f61be4c6be837405c93eb7db7c3afe8465db3296f&",
-        "activity": ""
+        "activity": "Last seen honing his swordsmanship skills in the mountains. He was seen training with his disciples and also teaching them the art of swordsmanship. He was also seen helping the locals in the mountains with their daily chores."
     },
     {
         "id": 8,
@@ -89,18 +89,18 @@
         "rank": "S",
         "rating": 6300,
         "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774923300894/King_Icon.webp?ex=65ddb951&is=65cb4451&hm=ab9e7b3376a38662022fb417aceafb589c1a7721608d326b1322161d2b1f8f6e&",
-        "activity": ""
+        "activity": "Last seen playing video games in his house. He was seen playing video games with his friends and also helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
     },
     {
         "id": 9,
-        "name": "ZomBieman",
-        "power": "Immortality",
+        "name": "Zombieman",
+        "power": "Regeneration",
         "upvotes": 6732,
         "downvotes": 564,
         "rank": "S",
         "rating": 6000,
         "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775393198120/Zombie_Icon.webp?ex=65ddb951&is=65cb4451&hm=cd7c15d949d695b8c3be077d76b622c3dd98a050288c1b8c7cba8691161b79b9&",
-        "activity": ""
+        "activity": "Was last seen at a cafe in the city. He was seen drinking coffee and reading a book. He was also seen helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
     },
     {
         "id": 10,
@@ -111,7 +111,7 @@
         "rank": "S",
         "rating": 5800,
         "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775926005760/Drive_Knight_Icon.webp?ex=65ddb951&is=65cb4451&hm=89c7ae762897f6aa06d37c0320eecdbd1acd628c06614a4d2baea29d99805c17&",
-        "activity": ""
+        "activity": "last seen fighting some high ranking monsters in the city. He was seen using his cyborg abilities to defeat the monsters and save the city. He was also seen using his cyborg abilities to save the people who were trapped in the rubble."
     },
     {
         "id": 11,
@@ -121,7 +121,8 @@
         "downvotes": 253,
         "rank": "S",
         "rating": 5700,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206906208439509042/Pig_God_Icon.png?ex=65ddb5ff&is=65cb40ff&hm=fa546a9c326e2c8968c3ff9587392ba42619d5509fe329b8a7d439ff844672bf&"
+        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206906208439509042/Pig_God_Icon.png?ex=65ddb5ff&is=65cb40ff&hm=fa546a9c326e2c8968c3ff9587392ba42619d5509fe329b8a7d439ff844672bf&",
+        "activity": "Last seen eating at a restaurant in the city. He was seen eating all of food, and also helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
     },
     {
         "id": 12,
