@@ -21,8 +21,10 @@ async function showHeroProfile() {
     }
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
-    const hero = data.find(function(item) {
-        return item.id;
+    const hero = data.find((item) => {
+        if (item.id == id) {
+            return item;
+        }
     });
     if (hero) {
         const profileimg = document.getElementById('profileimg');''
@@ -43,5 +45,5 @@ async function showHeroProfile() {
         }
     }
 }
-localStorage.clear();
+// localStorage.clear();
 showHeroProfile()
