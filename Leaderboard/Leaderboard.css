@@ -28,14 +28,16 @@ body {
     width: 85px;
     height: auto;
 }
+
 .midden {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .midden h2 {
-margin-right: 10px;
+    margin-right: 10px;
 }
 
 .einde {
@@ -125,16 +127,19 @@ margin-right: 10px;
 .top3-hero-card:nth-child(1) {
     border: rgb(161, 119, 1) solid;
     background-color: rgb(216, 175, 61);
+    color: rgb(94, 70, 2);
 }
 
 .top3-hero-card:nth-child(2) {
     border: rgb(255, 251, 251) solid;
     background-color: rgb(192, 192, 192);
+    color: rgb(117, 116, 116);
 }
 
 .top3-hero-card:nth-child(3) {
     border: rgb(138, 88, 39)solid;
     background-color: rgb(205, 127, 50);
+    color: rgb(90, 58, 26);
 }
 
 main {
@@ -158,9 +163,11 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 .top3herocard:nth-child(1) {
     padding-bottom: 0%;
 }
+
 .top3-hero-card {
     display: flex;
     flex-direction: column;
@@ -190,6 +197,7 @@ main {
     font-size: 24px;
     font-weight: 400;
 }
+
 .top3-hero-card td:nth-child(3) {
     font-size: 18px;
     font-weight: 400;
@@ -215,11 +223,11 @@ main {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 115px;
+    width: 150px;
     background-color: #333;
     color: #fff;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     position: absolute;
     top: 50px;
     right: 0px;
@@ -351,8 +359,9 @@ main {
 
 #button5:hover {
     background-color: rgb(112, 112, 200);
-    
+
 }
+
 .dropdown2 {
     position: relative;
     display: inline-block;
@@ -398,6 +407,7 @@ main {
 .dropdown2-content a:hover {
     background-color: #0a0a0a;
 }
+
 #type1 {
     background-color: #3f3f3f;
     color: white;
@@ -419,13 +429,27 @@ main {
     background-color: rgb(112, 112, 200);
 
 }
-.star-normaal {
 
-}
 .star-elite {
-color: rgb(0, 204, 255);
+    color: rgb(0, 204, 255);
 }
+
 .bi {
     width: 32px;
     height: 32px;
+}
+
+.top3-hero-number {
+    display: flex;
+    align-items: center;
+}
+
+.elite-hero-number {
+    display: flex;
+    align-items: center;
+}
+
+.hero-number {
+    display: flex;
+    align-items: center;
 }
