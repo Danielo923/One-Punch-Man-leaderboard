@@ -74,6 +74,26 @@ body {
     flex: 1;
     padding: 20px;
 }
+.card-content {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.card-content h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-content h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
 
 .card h2 {
     color: #333;
@@ -89,9 +109,8 @@ body {
     margin-left: auto;
     margin-right: 2%;
     margin-bottom: 2%;
-    width: 400px;
-    padding: 20px;
-    padding-top: 0%;
+    width: 700px;
+    height: auto;
     border-radius: 10px;
     border: #adadad solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -99,7 +118,7 @@ body {
 }
 
 .card2 img {
-    width: 100%;
+    width: 300px;
     border-radius: 5px;
 }
 
@@ -165,6 +184,81 @@ body {
     color: white;
     font-size: small;
     height: 10px;
+}
+
+.wanted {
+    display: flex;
+}
+
+.card4 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 700px;
+    border-radius: 10px;
+    border: #adadad solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+}
+
+.card4 img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card2-content {
+    flex: 1;
+    padding: 20px;
+
+}
+.card2-content h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.card2-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.card2-content h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.card4 h2 {
+    color: #333;
+}
+
+.card4 p {
+    color: #3d3939;
+}
+
+.card5 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    border: #adadad solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+}
+
+.card5 img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card5 h2 {
+    color: #333;
+}
+
+.card5 p {
+    color: #3d3939;
 }
 .transparent-bg {
     opacity: 0.2;

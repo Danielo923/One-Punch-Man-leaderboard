@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Verdana, Sans-serif;
+    font-family: Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -301,10 +301,12 @@ footer img {
 .dropdown-btn {
     background-color: #000000;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 40px;
+        font-size: 20px;
+            font-weight: 400;
 }
 
 .dropdown-btn:hover {
@@ -313,7 +315,7 @@ footer img {
 }
 
 .dropdown-content a {
-    color: black;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -324,9 +326,11 @@ footer img {
 }
 
 #button1 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #button1:hover {
@@ -335,9 +339,11 @@ footer img {
 }
 
 #button2 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #button2:hover {
@@ -346,9 +352,11 @@ footer img {
 }
 
 #button3 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #button3:hover {
@@ -357,9 +365,11 @@ footer img {
 }
 
 #button4 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #button4:hover {
@@ -368,9 +378,11 @@ footer img {
 }
 
 #button5 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #button5:hover {
@@ -425,9 +437,11 @@ footer img {
 }
 
 #type1 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #type1:hover {
@@ -436,9 +450,11 @@ footer img {
 }
 
 #type2 {
-    background-color: #3f3f3f;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
+        font-weight: 400;
 }
 
 #type2:hover {
