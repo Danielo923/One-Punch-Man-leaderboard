@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    padding: 0;
     min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -49,42 +48,13 @@ body {
     color: rgb(112, 112, 200);
 }
 
-.card {
-    display: flex;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    height: auto;
-    border-radius: 10px;
-    border: rgb(112, 112, 200) solid;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f1f0f0;
-}
-
-.card img {
-    width: 300px;
-    border-radius: 5px;
-}
-
-.card-content {
-    flex: 1;
-    padding: 20px;
-}
-
-.card h2 {
-    color: #333;
-}
-
-.card p {
-    color: #3d3939;
-}
-
 #card2 {
     display: flex;
     margin-left: 50px;
     width: 400px;
     padding: 20px;
-    padding-top: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -117,16 +87,40 @@ body {
     justify-content: center;
     margin-top: 40px;
 }
+
 .profileimg:nth-child(2) {
     display: flex;
     align-items: start;
-    
+
 }
+
 .profileimg:nth-child(3) {
     display: flex;
     flex-direction: column;
 }
+.card-buttons {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust this value to control the distance from the bottom */
+    right: 10px;
+    /* Adjust this value to control the distance from the right */
+    display: flex;
+}
 
+.card-button {
+    margin-left: 5px;
+    /* Adjust this value to control the space between buttons */
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #45a049;
+}
 #card3 {
     display: flex;
     width: 400px;
@@ -134,11 +128,12 @@ body {
     margin-left: 50px;
     margin-top: 20px;
     padding: 20px;
-    padding-top: 0%;
+    padding-top: 10px;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
+    position: relative;
 }
 
 #card3 img {
@@ -153,6 +148,7 @@ body {
 #card3 p {
     color: #3d3939;
 }
+
 #card4 {
     display: flex;
     width: 800px;
@@ -163,28 +159,34 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
 }
+
 #card4 h2 {
     color: #333;
 }
 
 #card4 p {
-    color: #3d3939;
+    color: #000000;
+    padding-left: 10px;
 }
+
 .card4hole {
     display: flex;
     justify-content: center;
 }
+
 .activityimg {
     height: auto;
     width: 300px;
     margin-right: 10px;
 }
+
 .vote {
     display: flex;
     justify-content: center;
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
 #upvote {
     background-color: rgb(0, 255, 0);
     margin-right: 20px;
@@ -192,10 +194,12 @@ body {
     border-radius: 50px;
     padding: 20px;
 }
+
 #upvote:hover {
     background-color: rgb(0, 177, 0);
     cursor: pointer;
 }
+
 #downvote {
     background-color: red;
     margin-left: 20px;
@@ -203,6 +207,7 @@ body {
     border-radius: 50px;
     padding: 20px;
 }
+
 #downvote:hover {
     background-color: rgb(172, 0, 0);
     cursor: pointer;
@@ -212,10 +217,12 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
 .larger-svg {
     width: 32px;
     height: 32px;
 }
+
 .transparent-bg {
     opacity: 0.2;
     position: fixed;
@@ -224,7 +231,8 @@ body {
     height: 100%;
     width: 100%;
 }
-.footer {
+
+footer {
     background-color: rgb(223, 222, 245);
     color: #000000;
     padding: 20px;
@@ -235,7 +243,8 @@ body {
     position: relative;
     margin-top: auto;
 }
-.footer img {
+
+footer img {
     width: 85px;
     height: auto;
 }
