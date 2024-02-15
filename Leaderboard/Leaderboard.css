@@ -141,7 +141,15 @@ body {
     background-color: rgb(205, 127, 50);
     color: rgb(90, 58, 26);
 }
-
+.top3-hero-card:nth-child(3) svg {
+    color: rgb(252, 223, 102);
+}
+.top3-hero-card:nth-child(2) svg {
+    color: rgb(252, 223, 102);
+}
+.top3-hero-card:nth-child(1) svg {
+    color: rgb(252, 223, 102);
+}
 main {
     overflow: hidden;
     position: relative;
@@ -430,7 +438,7 @@ main {
 
 }
 
-.star-elite {
+.star-C {
     color: rgb(0, 204, 255);
 }
 
@@ -452,4 +460,16 @@ main {
 .hero-number {
     display: flex;
     align-items: center;
+}
+.star-A {
+    color: rgb(230, 0, 255);
+}
+.star-B {
+    color: rgb(0, 115, 255);
+}
+.star-S {
+    color: rgb(255, 140, 0);
+}
+.star-C {
+    color: rgb(0, 255, 26);
 }
