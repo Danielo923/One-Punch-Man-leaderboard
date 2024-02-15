@@ -161,23 +161,14 @@ body {
 }
 #card4 {
     display: flex;
-    width: 400px;
-    height: 165px;
-    margin-left: 50px;
+    width: 800px;
+    height: auto;
     margin-top: 20px;
-    padding: 20px;
-    padding-top: 0%;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
 }
-
-#card4 img {
-    width: 100%;
-    border-radius: 5px;
-}
-
 #card4 h2 {
     color: #333;
 }
@@ -188,6 +179,11 @@ body {
 .card4hole {
     display: flex;
     justify-content: center;
+}
+.activityimg {
+    height: auto;
+    width: 300px;
+    margin-right: 10px;
 }
 .vote {
     display: flex;
@@ -239,4 +235,4 @@ body {
 .larger-svg {
     width: 32px;
     height: 32px;
-} 
+}
