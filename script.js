@@ -29,9 +29,13 @@ function sort(data) {
 }
 
 function starRating(rating) {
-    let star = "normal";
-    if (rating >= 5000) {
-        star = "elite";
+    let star = "C";
+    if (rating >= 900) {
+        star = "B";
+    } else if (rating >= 2300) {
+        star = "A";
+    } else if (rating >= 5000) {
+        star = "S";
     }
     return star;
 }

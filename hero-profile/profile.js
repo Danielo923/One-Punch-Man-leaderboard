@@ -19,14 +19,19 @@ async function showHeroProfile() {
     } else {
         data = await getHeroes();
     }
-    console.log(data);
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
     const hero = data.find(function(item) {
-        return item.id === id;
+        return item.id;
     });
     if (hero) {
         const profileimg = document.getElementById('profileimg');
-        profileimg.src = hero.img; // Set the src attribute of profileimg to hero.img
+        profileimg.src = hero.image;
+        const name = document.getElementById('card2');
+        name.innerHTML = hero.name;
+        const power = document.getElementById('card3');
+        power.innerHTML = hero.power;
     }
 }
+localStorage.clear();
+showHeroProfile()
