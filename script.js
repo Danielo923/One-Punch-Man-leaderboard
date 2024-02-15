@@ -150,7 +150,6 @@ function leaderboardType(buttonId) {
     const buttonElement = document.getElementById(`type${buttonId}`);
     sortType = buttonElement.innerHTML;
     buttonElement.innerHTML = "Selected!";
-    localStorage.clear();
     leaderboard();
 }
 

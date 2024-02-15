@@ -1,4 +1,5 @@
 let id;
+let indexInData;
 let data;
 
 async function getHeroes() {
@@ -22,9 +23,10 @@ async function showHeroProfile() {
         data = await getHeroes();
     }
     const urlParams = new URLSearchParams(window.location.search);
-    id = urlParams.get('id');
-    const hero = data.find((item) => {
-        if (item.id == id) {
+    id = Number(urlParams.get('id'));
+    const hero = data.find((item, index) => {
+        if (item.id === id) {
+            indexInData = index;
             return item;
         }
     });
@@ -82,12 +84,16 @@ async function showHeroProfile() {
 }
 
 function button(buttonId) {
+    console.log(buttonId);
     if (buttonId === "up") {
-        console.log("up");
-        data[id].upvotes++;
+        console.log("up uitgevoerd");
+        console.log(data[indexInData]);
+        data[indexInData].upvotes++;
+        console.log(data);
         localStorage.setItem("data", JSON.stringify(data));
     } else if (buttonId === "down") {
-        data[id].downvotes++;
+        console.log("down uitgevoerd");
+        data[indexInData].downvotes++;
         localStorage.setItem("data", JSON.stringify(data));
     }
     showHeroProfile();
