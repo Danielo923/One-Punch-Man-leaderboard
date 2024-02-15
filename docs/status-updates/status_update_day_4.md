@@ -1,0 +1,1 @@
+Leaderboard almost done. Styling also almost done. Json file is almost done and we just need to add some things untill we are finished.
