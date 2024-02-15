@@ -30,9 +30,9 @@ function sort(data) {
 
 function starRating(rating) {
     let star = "C";
-    if (rating >= 900) {
+    if (rating >= 900 && rating < 2300) {
         star = "B";
-    } else if (rating >= 2300) {
+    } else if (rating >= 2300 && rating < 5000) {
         star = "A";
     } else if (rating >= 5000) {
         star = "S";
