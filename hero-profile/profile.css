@@ -127,11 +127,15 @@ body {
     cursor: pointer;
 }
 
-.card-button:hover {
-    background-color: #45a049;
+.card-button:nth-child(1):hover {
+    background-color: #338137;
+}
+.card-button:nth-child(2):hover {
+    background-color: #a01717;
 }
 .flex {
     display: flex;
+    align-items: center;
 }
 #card3 {
 
