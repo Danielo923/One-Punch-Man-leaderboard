@@ -1,16 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+        display: flex;
+        flex-direction: column;
 }
 
-.transparent-bg {
-    opacity: 0.2;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
 
 .navbar {
     display: flex;
@@ -59,7 +54,6 @@ body {
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
-
     height: auto;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
@@ -213,6 +207,23 @@ body {
     background-color: rgb(172, 0, 0);
     cursor: pointer;
 }
+
+.top3-hero-name {
+    font-size: 24px;
+    font-weight: 400;
+}
+.larger-svg {
+    width: 32px;
+    height: 32px;
+}
+.transparent-bg {
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 .footer {
     background-color: rgb(223, 222, 245);
     color: #000000;
@@ -222,17 +233,9 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: auto;
 }
-
 .footer img {
     width: 85px;
     height: auto;
-}
-.top3-hero-name {
-    font-size: 24px;
-    font-weight: 400;
-}
-.larger-svg {
-    width: 32px;
-    height: 32px;
 }
