@@ -35,8 +35,10 @@ async function showHeroProfile() {
             const activity = document.getElementById('card4');
             activity.innerHTML = hero.activity.text;
             if (hero.activity.image) {
-                const activityimg = document.getElementById('activityimg');
-                activityimg.src = hero.activity.image;
+                activity.innerHTML = `
+                <img class="activityimg" src="${hero.activity.image}" alt="Activity image">
+                <p> ${hero.activity.text} </p>
+                `;
             }
         }
     }
