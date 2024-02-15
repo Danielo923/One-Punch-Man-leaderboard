@@ -25,10 +25,10 @@ async function showHeroProfile() {
         return item.id;
     });
     if (hero) {
-        const profileimg = document.getElementById('profileimg');
+        const profileimg = document.getElementById('profileimg');''
         profileimg.src = hero.image;
         const name = document.getElementById('card2');
-        name.innerHTML = hero.name;
+        name.innerHTML = '<h2>' + hero.name + '</h2>';
         const power = document.getElementById('card3');
         power.innerHTML = hero.power;
     }
