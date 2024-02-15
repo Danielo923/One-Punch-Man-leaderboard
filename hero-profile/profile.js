@@ -35,7 +35,7 @@ async function showHeroProfile() {
         power.innerHTML = hero.power;
         if (hero.activity.text) {
             const activity = document.getElementById('card4');
-            activity.innerHTML = hero.activity.text;
+            activity.innerHTML = `<p> ${hero.activity.text} </p>`
             if (hero.activity.image) {
                 activity.innerHTML = `
                 <img class="activityimg" src="${hero.activity.image}" alt="Activity image">
@@ -45,5 +45,13 @@ async function showHeroProfile() {
         }
     }
 }
-// localStorage.clear();
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "c") {
+        console.log("clear");
+        localStorage.clear();
+        showHeroProfile();
+    }
+});
+
 showHeroProfile()
