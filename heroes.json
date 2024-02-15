@@ -8,7 +8,10 @@
         "rank": "S",
         "rating": 10000,
         "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206922863203065886/7faaa942-5970-41f0-81d4-2199a6e3b244.jpg?ex=65ddc582&is=65cb5082&hm=3f5d2b2ae823d35841757afbcdf89a38e3ecff89f5cc4ac15c95ff44fbf4c092&",
-        "activity": "Last seen fighting in the center of City-S. It was a big battle between the hero and the God-Class monster, the battle was so intense that the entire city was destroyed. The hero was able to defeat the monster and save the city. He is currently giving out burritos to the locals in the city."
+        "activity": {
+            "text": "Last seen fighting in the center of City-S. It was a big battle between the hero and the God-Class monster, the battle was so intense that the entire city was destroyed. The hero was able to defeat the monster and save the city. He is currently giving out burritos with his teamto the locals in the city.",
+            "image": "https://cdn.discordapp.com/attachments/914850596509593621/1207617318499131402/5f27455d-1799-4dcf-8f6c-8005d395e11f.jpg?ex=65e04c45&is=65cdd745&hm=ad02f6e4b60afa3546b122462644cdd12d14ea9465e061681f02e4c6004c8a89&"
+        }
         
     },
     {
