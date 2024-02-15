@@ -121,6 +121,9 @@ body {
 .card-button:hover {
     background-color: #45a049;
 }
+.flex {
+    display: flex;
+}
 #card3 {
     display: flex;
     width: 400px;
