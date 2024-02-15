@@ -31,6 +31,14 @@ async function showHeroProfile() {
         name.innerHTML = '<h2>' + hero.name + '</h2>';
         const power = document.getElementById('card3');
         power.innerHTML = hero.power;
+        if (hero.activity.text) {
+            const activity = document.getElementById('card4');
+            activity.innerHTML = hero.activity.text;
+            if (hero.activity.image) {
+                const activityimg = document.getElementById('activityimg');
+                activityimg.src = hero.activity.image;
+            }
+        }
     }
 }
 localStorage.clear();
