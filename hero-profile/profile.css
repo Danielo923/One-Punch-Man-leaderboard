@@ -102,9 +102,6 @@ body {
 }
 
 .card-buttons {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     display: flex;
 }
 
@@ -141,39 +138,48 @@ body {
     align-items: center;
 }
 
-#card3 {
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
 
-    width: 400px;
-    height: 165px;
-    margin-left: 50px;
-    margin-top: 20px;
-    padding: 20px;
-    padding-top: 10px;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    max-width: min-content;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero>h2#name {
+    margin: -10px 0;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f1f0f0;
-    position: relative;
-}
-
-#card3 img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-#card3 h2 {
-    color: #333;
-}
-
-#card3 p {
-    color: #3d3939;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 
 #card4 {
     display: flex;
-    width: 800px;
-    height: auto;
-    margin-top: 20px;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -240,7 +246,7 @@ footer img {
 }
 
 @media screen and (max-width: 600px) {
-.navbar {
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -275,7 +281,7 @@ footer img {
 
     .profileimg {
         display: flex;
-            flex-direction: column;
+        flex-direction: column;
     }
 
     #card2 {
@@ -290,8 +296,8 @@ footer img {
 
     #card3 {
         width: 100%;
-        margin:0;
-        
+        margin: 0;
+
     }
 
     #card4 {
