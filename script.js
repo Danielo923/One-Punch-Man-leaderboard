@@ -162,3 +162,12 @@ document.addEventListener("keydown", function (event) {
 });
 // localStorage.clear();
 leaderboard();
+
+
+// TODO:
+// 1. add last filter
+// 2. add symbol to upvotes
+// 3. 1 blank spot in homepage
+// 4. add margin to bottom of profile page
+// 5. like and dislike buttons not spamable
+// 6. live update for the leaderboard
