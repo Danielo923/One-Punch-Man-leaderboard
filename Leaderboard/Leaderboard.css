@@ -504,5 +504,16 @@ footer img {
 @media screen and (max-width: 600px) {
     .top3herocard {
         display: block;
+        width:410px;
+        margin-right: 100px;
+        height: auto;
+    }
+    .eliteherocard {
+        display: block;
+        width: 600px;
+    }
+    .herocard {
+        display: block;
+        width: 350px;
     }
 }
