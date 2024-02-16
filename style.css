@@ -371,15 +371,13 @@ footer img {
     display: flex;
     align-items: center;
 }
-.top3-hero-number {
+#top1Leaderboardrating {
     display: flex;
-    align-items: center;
 }
-.top1Leaderboarddeeds {
+#top1Leaderboardvotes {
     display: flex;
-    align-items: center;
 }
-.top1Leaderboardvotes {
+#top1Leaderboarddeeds {
     display: flex;
 }
 @media screen and (max-width: 992px) {
