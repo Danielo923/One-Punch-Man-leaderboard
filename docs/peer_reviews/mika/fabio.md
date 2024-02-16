@@ -1,6 +1,6 @@
 I enjoyed working with Fabio and would like to do this more, for example Fabio mainly focused on the JSON file, which he did very well.
 
-<h1> fabio </h1>
+<h1> Fabio </h1>
 
 <table>
 <tr>
