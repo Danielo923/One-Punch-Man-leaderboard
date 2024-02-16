@@ -284,3 +284,89 @@ footer img {
     width: 85px;
     height: auto;
 }
+.top3herocard img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.top3-hero-card:nth-child(1) {
+    border: rgb(161, 119, 1) solid;
+    background-color: rgb(216, 175, 61);
+    color: rgb(94, 70, 2);
+}
+
+.top3-hero-card:nth-child(2) {
+    border: rgb(255, 251, 251) solid;
+    background-color: rgb(192, 192, 192);
+    color: rgb(117, 116, 116);
+}
+
+.top3-hero-card:nth-child(3) {
+    border: rgb(138, 88, 39)solid;
+    background-color: rgb(205, 127, 50);
+    color: rgb(90, 58, 26);
+}
+
+.top3-hero-card:nth-child(3) svg {
+    color: rgb(252, 223, 102);
+}
+
+.top3-hero-card:nth-child(2) svg {
+    color: rgb(252, 223, 102);
+}
+
+.top3-hero-card:nth-child(1) svg {
+    color: rgb(252, 223, 102);
+}
+.top3herocard img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top3herocard:nth-child(1) {
+    padding-bottom: 0%;
+}
+
+.top3-hero-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    border: #303030 solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f0f0;
+    text-align: center;
+    align-items: center;
+}
+
+.top3herocard {
+    display: flex;
+    justify-content: end;
+    width: 50px;
+}
+
+.top3-hero-card:nth-child(2) {
+    order: -1;
+
+}
+
+.top3-hero-card td:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.top3-hero-card td:nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
+}
+.top3-hero-number {
+    display: flex;
+    align-items: center;
+}
