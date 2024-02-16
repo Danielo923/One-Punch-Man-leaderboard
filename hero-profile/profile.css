@@ -81,6 +81,7 @@ body {
     border: rgb(112, 112, 200) solid;
     width: 300px;
     height: auto;
+    align-self: center;
 }
 
 .profileimg {
@@ -180,6 +181,8 @@ main {
 
 #card4 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px;
     border: rgb(112, 112, 200) solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -206,7 +209,6 @@ main {
 .activityimg {
     height: auto;
     width: 300px;
-    margin-right: 10px;
 }
 
 .top3-hero-name {
@@ -282,6 +284,7 @@ footer img {
     .profileimg {
         display: flex;
         flex-direction: column;
+        align-self: center;
     }
 
     #card2 {
