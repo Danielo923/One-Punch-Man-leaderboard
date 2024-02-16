@@ -536,21 +536,12 @@ footer img {
     .midden {
         order: 2;
         margin-bottom: 10px;
-        margin-left: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: 25px;
     }
 
     .einde {
         order: 3;
         margin-top: 10px;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: end;
-        margin-left: 270px;
     }
 
     .einde a {
