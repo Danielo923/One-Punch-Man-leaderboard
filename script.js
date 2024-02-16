@@ -65,7 +65,7 @@ async function leaderboard() {
     leaderboardElement.innerHTML = '';
     for (let i = 0; i < 3; i++) {
         const item = data[i];
-        const star = starRating(item.rating)
+        const star = starRating(item.rating);
         const listItem = document.createElement('tr');
         listItem.classList.add('top3-hero-card');
         listItem.onclick = function () {
@@ -85,7 +85,7 @@ async function leaderboard() {
     }
     for (let i = 3; i < 10; i++) {
         const item = data[i];
-        const star = starRating(item.rating)
+        const star = starRating(item.rating);
         const listItem = document.createElement('tr');
         listItem.onclick = function () {
             window.location.href = `../hero-profile/profile.html?id=${item.id}`;
@@ -105,7 +105,7 @@ async function leaderboard() {
     }
     for (let i = 10; i < data.length; i++) {
         const item = data[i];
-        const star = starRating(item.rating)
+        const star = starRating(item.rating);
         const listItem = document.createElement('tr');
         listItem.onclick = function () {
             window.location.href = `../hero-profile/profile.html?id=${item.id}`;
@@ -157,6 +157,12 @@ document.addEventListener("keydown", function (event) {
         leaderboard();
     }
 });
+
+setInterval(function() {
+    leaderboard();
+    console.log("leaderboard updated");
+}, 1000);
+
 // localStorage.clear();
 leaderboard();
 
@@ -164,7 +170,9 @@ leaderboard();
 // TODO:
 // 1. add last filter
 // 2. add symbol to upvotes
-// 3. 1 blank spot in homepage
+// 3. 1 blank spot in homepage (leaderboard?)
 // 4. add margin to bottom of profile page
 // 5. like and dislike buttons not spamable
 // 6. live update for the leaderboard
+
+// 0/6 done
