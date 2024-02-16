@@ -70,11 +70,11 @@ function button(buttonId) {
     } else if (buttonId === "down" && data[indexInData].downvoteButton == false) {
         data[indexInData].downvotes++;
         data[indexInData].downvoteButton = true;
-        document.getElementById("down").disabled = true;
+        document.getElementById("down").setAttribute("disabled", "");
         if (data[indexInData].upvoteButton == true) {
             data[indexInData].upvotes--;
             data[indexInData].upvoteButton = false;
-            document.getElementById("up").disabled = false;
+            document.getElementById("up").removeAttribute("disabled");
         }
         localStorage.setItem("data", JSON.stringify(data));
     }

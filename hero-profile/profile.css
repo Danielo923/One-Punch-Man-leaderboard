@@ -310,3 +310,10 @@ footer img {
         flex-direction: column;
     }
 }
+
+button:disabled,
+button[disabled] {
+    background-color: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed !important;
+}

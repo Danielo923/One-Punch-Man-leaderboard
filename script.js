@@ -51,11 +51,13 @@ async function leaderboard() {
             sortTypeShow = "rating";
             return b.rating - a.rating;
         });
-    } else {
+    } else if (sortType === "upvotes"){
         data.sort(function (a, b) {
             sortTypeShow = null;
             return b.upvotes - b.downvotes - (a.upvotes - a.downvotes);
         });
+    } else { 
+        
     }
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
     const eliteLeaderboardElement = document.getElementById('eliteLeaderboard');
@@ -149,6 +151,7 @@ function button(buttonId) {
 function leaderboardType(buttonId) {
     document.getElementById(`type1`).innerHTML = "rating";
     document.getElementById(`type2`).innerHTML = "upvotes";
+    document.getElementById(`type3`).innerHTML = "heroicDeeds";
     const buttonElement = document.getElementById(`type${buttonId}`);
     sortType = buttonElement.innerHTML;
     buttonElement.innerHTML = "Selected!";
