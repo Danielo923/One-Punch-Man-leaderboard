@@ -520,63 +520,129 @@ footer img {
         display: block;
         width: 350px;
     }
-                .navbar {
-                    flex-direction: column;
-                    align-items: flex-start;
-                }
-        
-                .start {
-                    order: 1;
-                    margin-bottom: 10px;
-                    margin-left: 0px;
-                }
-        
-                .midden {
-                    order: 2;
-                    margin-bottom: 10px;
-                    margin-left: 100px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-        
-                .einde {
-                    order: 3;
-                    margin-top: 10px;
-                    position: absolute;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: end;
-                    align-items: end;
-                    margin-left: 280px;
-                }
-                .einde:nth-child(1) {
-                    margin-bottom: ;
-                }
-        
-                .dropdown,
-                .dropdown2 {
-                    margin: 0;
-                }
-        
-                .dropdown-content,
-                .dropdown2-content {
-                    min-width: auto;
-                    box-shadow: none;
-                }
-        
-                .dropdown-btn,
-                .dropdown2-btn {
-                    border-radius: 0;
-                    margin: 0;
-                }
-        
-                .dropdown-content a,
-                .dropdown2-content a {
-                    display: block;
-                    padding: 10px 16px;
-                }
-                .dropdown-btn {
-                    margin-left: 10px;
-                }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .start {
+        order: 1;
+        margin-bottom: 10px;
+        margin-left: 0px;
+
+    }
+
+    .midden {
+        order: 2;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .einde {
+        order: 3;
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        margin-left: 270px;
+    }
+
+    .einde a {
+        margin-bottom: 10px;
+    }
+
+    .dropdown,
+    .dropdown2 {
+        margin: 0;
+    }
+
+    .dropdown-content,
+    .dropdown2-content {
+        min-width: auto;
+        box-shadow: none;
+    }
+
+    .dropdown-btn,
+    .dropdown2-btn {
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .dropdown-content a,
+    .dropdown2-content a {
+        display: block;
+        padding: 10px 16px;
+    }
+
+    .dropdown-btn {
+        margin-left: 10px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .dropdown:focus-within .dropdown-content,
+    .dropdown2:focus-within .dropdown2-content {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .dropdown-btn:focus,
+    .dropdown2-btn:focus {
+        outline: none;
+    }
+
+    .dropdown-btn,
+    .dropdown2-btn {
+        background-color: #000000;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        transition: background-color 0.3s ease;
+    }
+
+    .dropdown-btn:hover,
+    .dropdown2-btn:hover {
+        background-color: rgb(112, 112, 200);
+    }
+
+    .dropdown-content a,
+    .dropdown2-content a {
+        color: #000000;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .dropdown-content a:hover,
+    .dropdown2-content a:hover {
+        background-color: #0a0a0a;
+    }
+}
+
+.dropdown-btn,
+.dropdown2-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
 }
