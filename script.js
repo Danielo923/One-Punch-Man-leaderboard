@@ -8,9 +8,6 @@ async function getHeroes() {
             throw new Error('Failed to fetch heroes');
         }
         const data = await response.json();
-        data.sort(function (a, b) {
-            return b[sortType] - a[sortType];
-        });
         localStorage.setItem("data", JSON.stringify(data));
         return data;
     } catch (error) {
