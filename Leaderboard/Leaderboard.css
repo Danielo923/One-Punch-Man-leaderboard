@@ -277,6 +277,7 @@ footer img {
     width: 85px;
     height: auto;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -305,8 +306,8 @@ footer img {
     border: none;
     cursor: pointer;
     border-radius: 40px;
-        font-size: 20px;
-            font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .dropdown-btn:hover {
@@ -330,7 +331,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #button1:hover {
@@ -343,7 +344,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #button2:hover {
@@ -356,7 +357,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #button3:hover {
@@ -369,7 +370,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #button4:hover {
@@ -382,7 +383,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #button5:hover {
@@ -441,7 +442,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #type1:hover {
@@ -454,7 +455,7 @@ footer img {
     color: white;
     border-radius: 10px;
     font-size: 20px;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 #type2:hover {
@@ -501,19 +502,81 @@ footer img {
 .star-C {
     color: rgb(0, 255, 26);
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 992px) {
     .top3herocard {
         display: block;
-        width:410px;
+        width: 410px;
         margin-right: 100px;
         height: auto;
     }
+
     .eliteherocard {
         display: block;
         width: 600px;
     }
+
     .herocard {
         display: block;
         width: 350px;
     }
+                .navbar {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+        
+                .start {
+                    order: 1;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+                }
+        
+                .midden {
+                    order: 2;
+                    margin-bottom: 10px;
+                    margin-left: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .einde {
+                    order: 3;
+                    margin-top: 10px;
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    align-items: end;
+                    margin-left: 280px;
+                }
+                .einde:nth-child(1) {
+                    margin-bottom: ;
+                }
+        
+                .dropdown,
+                .dropdown2 {
+                    margin: 0;
+                }
+        
+                .dropdown-content,
+                .dropdown2-content {
+                    min-width: auto;
+                    box-shadow: none;
+                }
+        
+                .dropdown-btn,
+                .dropdown2-btn {
+                    border-radius: 0;
+                    margin: 0;
+                }
+        
+                .dropdown-content a,
+                .dropdown2-content a {
+                    display: block;
+                    padding: 10px 16px;
+                }
+                .dropdown-btn {
+                    margin-left: 10px;
+                }
 }
