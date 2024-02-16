@@ -85,28 +85,25 @@ async function showHeroProfile() {
 }
 
 function button(buttonId) {
-    console.log(buttonId);
     if (buttonId === "up" && data[indexInData].upvoteButton == false) {
-        console.log("up uitgevoerd");
-        console.log(data[indexInData]);
         data[indexInData].upvotes++;
         data[indexInData].upvoteButton = true;
-        upButton = document.getElementById("up");
-        // make the button inactive
-        
+        document.getElementById("up").disabled = true;
+
         if (data[indexInData].downvoteButton == true) {
             data[indexInData].downvotes--;
             data[indexInData].downvoteButton = false;
+            document.getElementById("down").disabled = false;
         }
         localStorage.setItem("data", JSON.stringify(data));
     } else if (buttonId === "down" && data[indexInData].downvoteButton == false) {
-        console.log("down uitgevoerd");
         data[indexInData].downvotes++;
         data[indexInData].downvoteButton = true;
-        downButton = document.getElementById("down");
+        document.getElementById("down").disabled = true;
         if (data[indexInData].upvoteButton == true) {
             data[indexInData].upvotes--;
             data[indexInData].upvoteButton = false;
+            document.getElementById("up").disabled = false;
         }
         localStorage.setItem("data", JSON.stringify(data));
     }
