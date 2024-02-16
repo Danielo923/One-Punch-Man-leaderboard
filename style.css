@@ -442,7 +442,6 @@ footer img {
         width: 350px;
         height: 500px;
         flex-direction: column;
-
     }
 
     .card2 {
@@ -452,7 +451,9 @@ footer img {
         flex-direction: column;
         align-items: center;
     }
-
+.card3{
+    height: 900px;
+}
     .top3herocard {
         display: block;
         width: 300px;
