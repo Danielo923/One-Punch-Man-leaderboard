@@ -151,7 +151,6 @@ function button(buttonId) {
 function leaderboardType(buttonId) {
     document.getElementById(`type1`).innerHTML = "rating";
     document.getElementById(`type2`).innerHTML = "upvotes";
-    document.getElementById(`type3`).innerHTML = "heroicDeeds";
     const buttonElement = document.getElementById(`type${buttonId}`);
     sortType = buttonElement.innerHTML;
     buttonElement.innerHTML = "Selected!";
@@ -173,14 +172,3 @@ setInterval(function() {
 
 // localStorage.clear();
 leaderboard();
-
-
-// TODO:
-// 1. add last filter
-// 2. add symbol to upvotes done
-// 3. 1 blank spot in homepage (leaderboard?) done
-// 4. add margin to bottom of profile page done
-// 5. like and dislike buttons not spamable done
-// 6. live update for the leaderboard done
-
-// 5/6 done

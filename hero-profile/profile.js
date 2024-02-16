@@ -53,7 +53,13 @@ async function showHeroProfile() {
             }
         }
     }
+    if (data[indexInData].downvoteButton == true) {
+        document.getElementById("down").setAttribute("disabled", "");
+    } else if (data[indexInData].upvoteButton == true) {
+        document.getElementById("up").setAttribute("disabled", "");
+    }
 }
+
 
 function button(buttonId) {
     if (buttonId === "up" && data[indexInData].upvoteButton == false) {
