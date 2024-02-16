@@ -380,6 +380,9 @@ footer img {
 #top1Leaderboarddeeds {
     display: flex;
 }
+#text {
+    color: rgb(176, 176, 176);
+}
 @media screen and (max-width: 992px) {
 .navbar {
         flex-direction: column;

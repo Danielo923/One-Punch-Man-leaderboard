@@ -1,4 +1,6 @@
-
+/* eslint-disable max-len */
+let sortFilter = null;
+let sortType = "rating";
 async function getHeroes() {
     try {
         const response = await fetch('heroes.json');
@@ -13,6 +15,15 @@ async function getHeroes() {
         throw error;
     }
 }
+function sort(data) {
+    if (sortFilter != null) {
+        data = data.filter(function (item) {
+            return item.rank === sortFilter;
+        });
+        return data;
+    }
+    return data;
+}
 function starRating(rating) {
     let star = "C";
     if (rating >= 900 && rating < 2300) {
@@ -26,19 +37,27 @@ function starRating(rating) {
 }
 async function leaderboard() {
     let data;
+    let sortTypeShow = null;
     if (localStorage.getItem("data")) {
         data = JSON.parse(localStorage.getItem("data"));
     } else {
         data = await getHeroes();
     }
-    data.sort(function (a, b) {
-        return b.rating - a.rating;
-    });
-    console.log(1);
+    data = sort(data);
+    sortType = "rating";
+    if (sortType === "rating") {
+        data.sort(function (a, b) {
+            sortTypeShow = "rating";
+            return b.rating - a.rating;
+        });
+    } else {
+        data.sort(function (a, b) {
+            sortTypeShow = null;
+            return b.upvotes - b.downvotes - (a.upvotes - a.downvotes);
+        });
+    }
     const Top3LeaderboardElement = document.getElementById('top3Leaderboard');
-    console.log(data);
     Top3LeaderboardElement.innerHTML = '';
-    console.log(2);
     for (let i = 0; i < 3; i++) {
         const item = data[i];
         const star = starRating(item.rating);
@@ -62,3 +81,16 @@ async function leaderboard() {
 }
 // localStorage.clear();
 leaderboard();
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "c") {
+        console.log("clear");
+        localStorage.clear();
+        leaderboard();
+    }
+});
+
+setInterval(function () {
+    leaderboard();
+    console.log("leaderboard updated");
+}, 5000);
