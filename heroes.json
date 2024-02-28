@@ -7,7 +7,7 @@
         "downvotes": 6,
         "rank": "S",
         "rating": 10000,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206922863203065886/7faaa942-5970-41f0-81d4-2199a6e3b244.jpg?ex=65ddc582&is=65cb5082&hm=3f5d2b2ae823d35841757afbcdf89a38e3ecff89f5cc4ac15c95ff44fbf4c092&",
+        "image": "../../img/7faaa942-5970-41f0-81d4-2199a6e3b244.jpg",
         "activity": {
             "text": "Last seen fighting in the center of City-S. It was a big battle between the hero and the God-Class monster, the battle was so intense that the entire city was destroyed. The hero was able to defeat the monster and save the city. He is currently giving out burritos with his team to the locals in the city.",
             "image": "https://cdn.discordapp.com/attachments/914850596509593621/1207617318499131402/5f27455d-1799-4dcf-8f6c-8005d395e11f.jpg?ex=65e04c45&is=65cdd745&hm=ad02f6e4b60afa3546b122462644cdd12d14ea9465e061681f02e4c6004c8a89&"
@@ -24,7 +24,7 @@
         "downvotes": 1,
         "rank": "C",
         "rating": 899,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206982207801917511/mumen_rider__manga_one_punch_man__by_hakut0_deok5pa-fullview.jpg?ex=65ddfcc6&is=65cb87c6&hm=fad06c98c18296855967eddfeda58e56802602406bcbd2010213479e75a3e8da&",
+        "image": "../../img/mumen_rider__manga_one_punch_man__by_hakut0_deok5pa-fullview.jpg",
         "activity": {
             "text":"After the GOAT battle, Mumen Rider was seen helping the locals in the city. He was seen giving out food and water to the people who were affected by the battle. He was also seen helping the rescue team to find and save the people who were trapped in the rubble."
         },
@@ -40,7 +40,7 @@
         "downvotes": 281,
         "rank": "A",
         "rating": 2340,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909772964569148/Saitama_Icon.webp?ex=65ddb951&is=65cb4451&hm=17f5bf2b15414bf4f228bdf051d5836a72a9f664f3603d2f53c436e9e2588adc&",
+        "image": "../../img/Saitama_Icon.webp",
         "activity": {
             "text": "Last seen wandering the city and helping the locals with their daily chores. He was seen helping the old lady to cross the road and also helped the kids to get their kite from the tree. He was also seen helping the locals to fix their houses and shops."
         },
@@ -56,7 +56,7 @@
         "downvotes": 352,
         "rank": "S",
         "rating": 5100,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909773358956584/Genos_Manga_Icon.webp?ex=65ddb951&is=65cb4451&hm=eb461609d69611387750a322be098f1b1f807869fc1d41f74462b46f25c5b76c&",
+        "image": "../../img/Genos_Manga_Icon.webp",
         "activity": {
             "text": "Last seen with saitama, he was seen helping the locals with their daily chores. He was seen helping the old lady to cross the road and also helped the kids to get their kite from the tree. He was also seen helping the locals to fix their houses and shops."
         },
@@ -72,7 +72,7 @@
         "downvotes": 632,
         "rank": "S",
         "rating": 7000,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909773782720572/Tats_Icon.webp?ex=65ddb951&is=65cb4451&hm=0136a70ca825b663fd18c5cea2ae1246aff9126688b9cafcc92941224e9156eb&",
+        "image": "../../img/Tats_Icon.webp",
         "activity": {
             "text": "Was last seen fighting some high ranking monsters in the city. She was seen using her telekinesis to throw the monsters away from the city. She was also seen using her telekinesis to save the people who were trapped in the rubble."
         },
@@ -88,7 +88,7 @@
         "downvotes": 262,
         "rank": "S",
         "rating": 7800,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206979453981564929/maxresdefault.jpg?ex=65ddfa36&is=65cb8536&hm=4739e39ea8d34ce11382bb02ed4dc181c82fa285c1300b5ad913a4cf4157e7e4&",
+        "image": "../../img/maxresdefault.jpg",
         "activity": {
             "text": "Not very much is known aboout him. He is always in the shadows and not much is known about his activities. He is a very mysterious hero and not much is known about his powers and abilities."
         },
@@ -104,7 +104,7 @@
         "downvotes": 123,
         "rank": "S",
         "rating": 6800,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774386434078/Atomic_Icon.webp?ex=65ddb951&is=65cb4451&hm=4cf248934d583bfdfc15797f61be4c6be837405c93eb7db7c3afe8465db3296f&",
+        "image": "../../img/Atomic_Icon.webp",
         "activity": {
             "text": "Last seen honing his swordsmanship skills in the mountains. He was seen training with his disciples and also teaching them the art of swordsmanship. He was also seen helping the locals in the mountains with their daily chores."
         },
@@ -120,7 +120,7 @@
         "downvotes": 326,
         "rank": "S",
         "rating": 6300,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909774923300894/King_Icon.webp?ex=65ddb951&is=65cb4451&hm=ab9e7b3376a38662022fb417aceafb589c1a7721608d326b1322161d2b1f8f6e&",
+        "image": "../../img/King_Icon.webp",
         "activity": {
             "text": "Last seen playing video games in his house. He was seen playing video games with his friends and also helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
         },
@@ -136,7 +136,7 @@
         "downvotes": 564,
         "rank": "S",
         "rating": 6000,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775393198120/Zombie_Icon.webp?ex=65ddb951&is=65cb4451&hm=cd7c15d949d695b8c3be077d76b622c3dd98a050288c1b8c7cba8691161b79b9&",
+        "image": "../../img/Zombie_Icon.webp",
         "activity": {
             "text": "Was last seen at a cafe in the city. He was seen drinking coffee and reading a book. He was also seen helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
         },
@@ -152,7 +152,7 @@
         "downvotes": 342,
         "rank": "S",
         "rating": 5800,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909775926005760/Drive_Knight_Icon.webp?ex=65ddb951&is=65cb4451&hm=89c7ae762897f6aa06d37c0320eecdbd1acd628c06614a4d2baea29d99805c17&",
+        "image": "../../img/Drive_Knight_Icon.webp",
         "activity": {
             "text": "last seen fighting some high ranking monsters in the city. He was seen using his cyborg abilities to defeat the monsters and save the city. He was also seen using his cyborg abilities to save the people who were trapped in the rubble."
         },
@@ -168,7 +168,7 @@
         "downvotes": 253,
         "rank": "S",
         "rating": 5700,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206906208439509042/Pig_God_Icon.png?ex=65ddb5ff&is=65cb40ff&hm=fa546a9c326e2c8968c3ff9587392ba42619d5509fe329b8a7d439ff844672bf&",
+        "image": "../../img/Pig_God_Icon.webp",
         "activity": {
             "text": "Last seen eating at a restaurant in the city. He was seen eating all of food, and also helping the locals with their daily chores. He was also seen helping the kids to get their kite from the tree."
         },
@@ -184,7 +184,7 @@
         "downvotes": 534,
         "rank": "S",
         "rating": 5600,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206909806540095508/DS_Icon.webp?ex=65ddb959&is=65cb4459&hm=54766d11a8548f056414e2e33baa72440fb29c4bb5c0d1fb6202ab6583993787&",
+        "image": "../../img/DS_Icon.webp",
         "heroicDeeds": 400,
         "upvoteButton": false,
         "downvoteButton": false
@@ -197,7 +197,7 @@
         "downvotes": 163,
         "rank": "S",
         "rating": 6500,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914729650561024/Bofoi.webp?ex=65ddbdee&is=65cb48ee&hm=60f533a68d8fef8bb086ecd2ba0ac92e2836324bf978da73a324f8904adc6410&",
+        "image": "../../img/Bofoi.webp",
         "heroicDeeds": 475,
         "upvoteButton": false,
         "downvoteButton": false
@@ -210,7 +210,7 @@
         "downvotes": 643,
         "rank": "B",
         "rating": 2299,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730006945792/Fubuki_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=47174e4dbde540a801fbccde7f5700e2cf2678c1d40ad23fc22042d991698697&",
+        "image": "../../img/Fubuki_Icon.webp",
         "heroicDeeds": 300,
         "upvoteButton": false,
         "downvoteButton": false
@@ -223,7 +223,7 @@
         "downvotes": 564,
         "rank": "A",
         "rating": 4999,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730359521320/Amai_Mask_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=32aafd93da2300856bb3200f53dc88750d736b845e04f133796503088ee38e56&",
+        "image": "../../img/Amai_Mask_Icon.webp",
         "heroicDeeds": 142,
         "upvoteButton": false,
         "downvoteButton": false
@@ -236,7 +236,7 @@
         "downvotes": 362,
         "rank": "A",
         "rating": 4823,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914730732552273/Iaian_Manga_Profile.webp?ex=65ddbdef&is=65cb48ef&hm=4f96873cc5f462726e386042e0f2e7fd61ef95430cdf6dd279a6353e188f1d9a&",
+        "image": "../../img/Iaian_Manga_Profile.webp",
         "heroicDeeds": 271,
         "upvoteButton": false,
         "downvoteButton": false
@@ -249,7 +249,7 @@
         "downvotes": 632,
         "rank": "A",
         "rating": 4800,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914731143729152/Okamaitachi_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=59256e45e312225f31c987367904413dc41053c8a0931212a6932110ed32d85f&",
+        "image": "../../img/Okamaitachi_Icon.webp",
         "heroicDeeds": 192,
         "upvoteButton": false,
         "downvoteButton": false
@@ -262,7 +262,7 @@
         "downvotes": 235,
         "rank": "A",
         "rating": 4657,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914731634331658/Bushidrill_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=a9339930d4f5235bfd28428bbcabc5a060cbfe556d01c59c6d98780702dcf7e5&",
+        "image": "../../img/Bushidrill_Icon.webp",
         "heroicDeeds": 201,
         "upvoteButton": false,
         "downvoteButton": false
@@ -275,7 +275,7 @@
         "downvotes": 435,
         "rank": "A",
         "rating": 4543,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732012085288/Heavy_Tank_Loincloth_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=785bae066cf6fcd1c269ad31a7cdc7353720a1e1e5fb2e17f9296a52803a0679&",
+        "image": "../../img/Heavy_Tank_Loincloth_Icon.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -288,7 +288,7 @@
         "downvotes": 642,
         "rank": "A",
         "rating": 4000,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732335042560/Blue_Fire_icon.webp?ex=65ddbdef&is=65cb48ef&hm=5835fafa46ef60389a3a815346a17a853b2f838a1d8c6885812a90abfba3c4d4&",
+        "image": "../../img/Blue_Fire_icon.webp",
         "heroicDeeds": 300,
         "upvoteButton": false,
         "downvoteButton": false
@@ -301,7 +301,7 @@
         "downvotes": 214,
         "rank": "A",
         "rating": 3402,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914732687228948/Death_Gatling_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=14696fbd616cd1a5b031b602ab826b16567ebf58a316548920e1d79a84b956e2&",
+        "image": "../../img/Death_Gatling_Icon.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -314,7 +314,7 @@
         "downvotes": 532,
         "rank": "A",
         "rating": 3000,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1206914733106667530/Stinger_Icon.webp?ex=65ddbdef&is=65cb48ef&hm=72dfd0aa62f28bdcd66b848f455c1833951f38fe2128a3fa8fa1c036b5a8c7ce&",
+        "image": "../../img/Stinger_Icon.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false 
@@ -327,7 +327,7 @@
         "downvotes": 632,
         "rank": "A",
         "rating": 2698,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943439414104104/Magic_Trick_Man_icon.webp?ex=65ddd8ab&is=65cb63ab&hm=59dd1a236fac13d6dd353298aa4d7aa0672d8e457fbe98bf51af545c88c3ff3e&",
+        "image": "../../img/Stinger_Icon.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -340,7 +340,7 @@
         "downvotes": 213,
         "rank": "B",
         "rating": 2250,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943439779012618/Eyelashes.webp?ex=65ddd8ab&is=65cb63ab&hm=7509157fa96141609cb5e49a1a25eea8fd03f974a38cb8a3e186d9b308e9d97b&",
+        "image": "../../img/Eyelashes.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -353,7 +353,7 @@
         "downvotes": 192,
         "rank": "B",
         "rating": 2200,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440169074698/Mountain_Ape_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=31941d538295a590f0a9b81749029876fd6c857cbfea43b5e88ea6437deff7f9&",
+        "image": "../../img/Mountain_Ape_Icon.webp",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -366,7 +366,7 @@
         "downvotes": 326,
         "rank": "B",
         "rating": 2180,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440529526834/Mad_Devil_Yankee_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=7c626abf6e6dbe3a330b0a50c61824f293b4fe27bc19d070482d7b4c145d6a60&",
+        "image": "../../img/Mad_Devil_Yankee_Icon.webp",
         "heroicDeeds": 211,
         "upvoteButton": false,
         "downvoteButton": false
@@ -379,7 +379,7 @@
         "downvotes": 432,
         "rank": "B",
         "rating": 2170,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943440957472798/Wild_Horn_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=5808d27759067223020a0d25b808370145166d04be6ae88255a156b5fb6409ad&",
+        "image": "../../img/Wild_Horn_Icon.webp",
         "heroicDeeds": 89,
         "upvoteButton": false,
         "downvoteButton": false
@@ -392,7 +392,7 @@
         "downvotes": 542,
         "rank": "B",
         "rating": 2156,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943441339023360/Glasses_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=f1bd3d03fdd57ee9044a5b2b4480687cef10f13f690dfd173038f41552f36f27&",
+        "image": "../../img/Glasses_Icon.webp",
         "heroicDeeds": 111,
         "upvoteButton": false,
         "downvoteButton": false
@@ -405,7 +405,7 @@
         "downvotes": 251,
         "rank": "B",
         "rating": 2100,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943441720844288/PinkHornet.webp?ex=65ddd8ac&is=65cb63ac&hm=965be37e271c2e821e75bf0e875ee8df881d7bc51e544af60fcfa4e116605b50&",
+        "image": "../../img/PinkHornet.webp",
         "heroicDeeds": 62,
         "upvoteButton": false,
         "downvoteButton": false
@@ -418,7 +418,7 @@
         "downvotes": 176,
         "rank": "B",
         "rating": 2045,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442060451870/Double_Hole_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=efc1bd189b4971dcbb0f6ae27232b2f817d89163f656df055352f4483ef6ab3f&",
+        "image": "../../img/",
         "heroicDeeds": 12,
         "upvoteButton": false,
         "downvoteButton": false
@@ -431,7 +431,7 @@
         "downvotes": 532,
         "rank": "B",
         "rating": 2000,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442425483284/SmellMaster.webp?ex=65ddd8ac&is=65cb63ac&hm=3732158da760f262e6ec145a05d2b7905cffa9059b43f3a9ca1e5217779d09a5&",
+        "image": "../../img/",
         "heroicDeeds": 156,
         "upvoteButton": false,
         "downvoteButton": false
@@ -444,7 +444,7 @@
         "downvotes": 345,
         "rank": "B",
         "rating": 1920,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206943442824073266/Gun_Gun_Icon.webp?ex=65ddd8ac&is=65cb63ac&hm=ddb8b92c20e2eed7e6c8cdaffb6592a8edcc2aac552e7a28318571217e4c9346&",
+        "image": "../../img/",
         "heroicDeeds": 222,
         "upvoteButton": false,
         "downvoteButton": false
@@ -457,7 +457,7 @@
         "downvotes": 642,
         "rank": "B",
         "rating": 1900,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952637019332678/Butcher.webp?ex=65dde13c&is=65cb6c3c&hm=981238aec48050c4cdc538d17022cf9f1c55eb64d01f296368dc4e5af353ac5f&",
+        "image": "../../img/",
         "heroicDeeds": 123,
         "upvoteButton": false,
         "downvoteButton": false
@@ -470,7 +470,7 @@
         "downvotes": 426,
         "rank": "B",
         "rating": 1820,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642018934804/Jet_Nice_Guy_Manga.webp?ex=65dde13d&is=65cb6c3d&hm=223b1c6ec764739f3e952bcaca507b4007d28049dea90f7f2ec7eba5e736223f&",
+        "image": "../../img/",
         "heroicDeeds": 212,
         "upvoteButton": false,
         "downvoteButton": false
@@ -483,7 +483,7 @@
         "downvotes": 341,
         "rank": "B",
         "rating": 1800,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642564067358/Needle_Star_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=16550bf9fbda9b2b0244dfd75366bb55a05cf840f20abbe36d96a58897349689&",
+        "image": "../../img/",
         "heroicDeeds": 312,
         "upvoteButton": false,
         "downvoteButton": false
@@ -496,7 +496,7 @@
         "downvotes": 624,
         "rank": "B",
         "rating": 1730,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952642987958393/Piko.webp?ex=65dde13e&is=65cb6c3e&hm=751c5941421421008f713879ec4f6b4cbeea34a37e8ee6696715058ed8a81385&",
+        "image": "../../img/",
         "heroicDeeds": 121,
         "upvoteButton": false,
         "downvoteButton": false
@@ -509,7 +509,7 @@
         "downvotes": 162,
         "rank": "B",
         "rating": 1700,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952643533213726/Crying_Man_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=29082949681b661136f1f066302509ed493c0f6c99ce22b5d402ea224e0c4c76&",
+        "image": "../../img/",
         "heroicDeeds": 222,
         "upvoteButton": false,
         "downvoteButton": false
@@ -522,7 +522,7 @@
         "downvotes": 632,
         "rank": "B",
         "rating": 1500,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952644145578024/TrapTengu.webp?ex=65dde13e&is=65cb6c3e&hm=977f7929f454e8281eeb72451f55b94fb9235284c3f6edff413a5864a18b0164&",
+        "image": "../../img/",
         "heroicDeeds": 231,
         "upvoteButton": false,
         "downvoteButton": false
@@ -535,7 +535,7 @@
         "downvotes": 526,
         "rank": "B",
         "rating": 1400,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952645411995739/Mizuki_Icon.webp?ex=65dde13e&is=65cb6c3e&hm=9c7db262aa2d8ea0f584827fc32cfa60560d1644aad20f9771f093350558e24b&",
+        "image": "../../img/",
         "heroicDeeds": 312,
         "upvoteButton": false,
         "downvoteButton": false
@@ -548,7 +548,7 @@
         "downvotes": 324,
         "rank": "B",
         "rating": 1340,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952646041149470/Lily_nivon.webp?ex=65dde13e&is=65cb6c3e&hm=668b937a0b44e8c2c3c489d91deb60065885cd739aa8d00b2a12c26e38f86f79&",
+        "image": "../../img/",
         "heroicDeeds": 212,
         "upvoteButton": false,
         "downvoteButton": false
@@ -561,7 +561,7 @@
         "downvotes": 632,
         "rank": "B",
         "rating": 1280,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952646871744573/Bone_Icon.webp?ex=65dde13f&is=65cb6c3f&hm=2115250cf75f813a634a2f8ae213508761c9889293505f46fdf179a42b0242a2&",
+        "image": "../../img/",
         "heroicDeeds": 273,
         "upvoteButton": false,
         "downvoteButton": false
@@ -574,7 +574,7 @@
         "downvotes": 362,
         "rank": "B",
         "rating": 1200,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206952647668535326/Pineapple.webp?ex=65dde13f&is=65cb6c3f&hm=d640019fb098de1124d73a873da79639fc793fbd913e604bf927fed3b5115292&",
+        "image": "../../img/",
         "heroicDeeds": 292,
         "upvoteButton": false,
         "downvoteButton": false
@@ -587,7 +587,7 @@
         "downvotes": 632,
         "rank": "C",
         "rating": 880,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956997614768128/Binding_Shell_Icon.webp?ex=65dde54c&is=65cb704c&hm=12b5d845b2f0d6263729272b82423a9f3efb7b5d2ee096d7c85eade4d9122a73&",
+        "image": "../../img/",
         "heroicDeeds": 263,
         "upvoteButton": false,
         "downvoteButton": false
@@ -600,7 +600,7 @@
         "downvotes": 362,
         "rank": "C",
         "rating": 860,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998063693824/Tanktop_Tiger_Icon.webp?ex=65dde54c&is=65cb704c&hm=23a1d24a5c8ce11dc0a8df8f8897d8ff36f6d65a6bcf090c51a056a8af8bca37&",
+        "image": "../../img/",
         "heroicDeeds": 200,
         "upvoteButton": false,
         "downvoteButton": false
@@ -613,7 +613,7 @@
         "downvotes": 562,
         "rank": "C",
         "rating": 800,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998512353310/DPad_Icon_copy.webp?ex=65dde54c&is=65cb704c&hm=800ba38bb8689f47456ecf18b24a64cd0037e5180258b5fd30ea3a23f0190610&",
+        "image": "../../img/",
         "heroicDeeds": 256,
         "upvoteButton": false,
         "downvoteButton": false
@@ -626,7 +626,7 @@
         "downvotes": 632,
         "rank": "C",
         "rating": 750,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956998743031869/Funeral_suspenders.webp?ex=65dde54c&is=65cb704c&hm=2a788a9b2d74e11b4d62c5f2fd2ee6ceb9bf56f1736790a03c047bd46d28dd46&",
+        "image": "../../img/",
         "heroicDeeds": 265,
         "upvoteButton": false,
         "downvoteButton": false
@@ -639,7 +639,7 @@
         "downvotes": 192,
         "rank": "C",
         "rating": 720,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999020118036/Futoshi_Icon.webp?ex=65dde54c&is=65cb704c&hm=4135160c260a047ac7c0bf73f69f7de4d29fbf8016217e2cbd1ef86566c1af86&",
+        "image": "../../img/",
         "heroicDeeds": 187,
         "upvoteButton": false,
         "downvoteButton": false
@@ -652,7 +652,7 @@
         "downvotes": 342,
         "rank": "C",
         "rating": 700,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999447941140/Battery_Man_Icon.webp?ex=65dde54c&is=65cb704c&hm=dbf95b0c76548005d76307d248a71aaddfc350ceced11e990e9b8ec3b1bb8129&",
+        "image": "../../img/",
         "heroicDeeds": 145,
         "upvoteButton": false,
         "downvoteButton": false
@@ -665,7 +665,7 @@
         "downvotes": 723,
         "rank": "C",
         "rating": 680,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206956999871430686/Red_Muffler_Icon.webp?ex=65dde54c&is=65cb704c&hm=fdc67c0fbbdd4dcc21534d925e4393f2fab531bd5ad497a01575a22adb674b71&",
+        "image": "../../img/",
         "heroicDeeds": 165,
         "upvoteButton": false,
         "downvoteButton": false
@@ -678,7 +678,7 @@
         "downvotes": 321,
         "rank": "C",
         "rating": 648,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206957000353914880/Armored_Chief_Clerk_icon.webp?ex=65dde54d&is=65cb704d&hm=9a5b69bac9abcb8c1cdbd45c22ab93721ce0fdb2206cbb63e51764a31a29f34c&",
+        "image": "../../img/",
         "heroicDeeds": 175,
         "upvoteButton": false,
         "downvoteButton": false
@@ -691,7 +691,7 @@
         "downvotes": 643,
         "rank": "C",
         "rating": 640,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206957000718553168/Gearsper_Icon.webp?ex=65dde54d&is=65cb704d&hm=7b8560f0e130ab330179ccd34c1a97aaf6320620c0a5276e6994ec988e7eedcc&",
+        "image": "../../img/",
         "heroicDeeds": 134,
         "upvoteButton": false,
         "downvoteButton": false
@@ -704,7 +704,7 @@
         "downvotes": 321,
         "rank": "C",
         "rating": 600,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959750709907497/Skunk_Boy_Gasmask_Icon.webp?ex=65dde7dc&is=65cb72dc&hm=1461190b3f99547767d2bab1350a532a25c3d3a44f8f8a13e0ce000be2e9057c&",
+        "image": "../../img/",
         "heroicDeeds": 187,
         "upvoteButton": false,
         "downvoteButton": false
@@ -717,7 +717,7 @@
         "downvotes": 632,
         "rank": "C",
         "rating": 579,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959751183859793/Grave_Eight.webp?ex=65dde7dc&is=65cb72dc&hm=5ca534a2cefba75ba97880f908f9d6b1643791a4384f639d4126aa0a1e36ba9f&",
+        "image": "../../img/",
         "heroicDeeds": 145,
         "upvoteButton": false,
         "downvoteButton": false
@@ -730,7 +730,7 @@
         "downvotes": 742,
         "rank": "C",
         "rating": 568,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959751448236162/Ecolo_G_profile.webp?ex=65dde7dc&is=65cb72dc&hm=2f4cb8173052aab0d8e9c29c5441f4c1f3f6d00afd8321779009acbfb022463f&",
+        "image": "../../img/",
         "heroicDeeds": 157,
         "upvoteButton": false,
         "downvoteButton": false
@@ -743,7 +743,7 @@
         "downvotes": 273,
         "rank": "C",
         "rating": 540,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959751687049297/Monocross.webp?ex=65dde7dd&is=65cb72dd&hm=8bbb10f0642bdacb7d98120f49da4ccc7ee2873ff9a15c34896b8657f0c8bc48&",
+        "image": "../../img/",
         "heroicDeeds": 127,
         "upvoteButton": false,
         "downvoteButton": false
@@ -756,7 +756,7 @@
         "downvotes": 372,
         "rank": "C",
         "rating": 520,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959751930314812/Dynamite_Man_Icon.webp?ex=65dde7dd&is=65cb72dd&hm=93fc58d048d0258d6051ac569db4fdb9a0364692cbc449f8ae201bc1b79a0328&",
+        "image": "../../img/",
         "heroicDeeds": 123,
         "upvoteButton": false,
         "downvoteButton": false
@@ -769,7 +769,7 @@
         "downvotes": 832,
         "rank": "C",
         "rating": 500,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959752303747102/Angry_man.webp?ex=65dde7dd&is=65cb72dd&hm=fe96498b70adfdbcb8256bbb78ccd0f75928dce68a8c83bb090777a52800c7a1&",
+        "image": "../../img/",
         "heroicDeeds": 134,
         "upvoteButton": false,
         "downvoteButton": false
@@ -782,7 +782,7 @@
         "downvotes": 263,
         "rank": "C",
         "rating": 440,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959752530362368/Horse-Bone_profile.webp?ex=65dde7dd&is=65cb72dd&hm=0abcf682cad6fd5faa0d7088689f6e4156dda9310cb3a1d58e056e9c0511e1a6&",
+        "image": "../../img/",
         "heroicDeeds": 143,
         "upvoteButton": false,
         "downvoteButton": false
@@ -795,7 +795,7 @@
         "downvotes": 817,
         "rank": "C",
         "rating": 400,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959752869974076/Studless.webp?ex=65dde7dd&is=65cb72dd&hm=5cd515c4ee5655c67ee60b6b93f6eef965c61c8cf06d4dd91f68cb64cd9c5fbc&",
+        "image": "../../img/",
         "heroicDeeds": 162,
         "upvoteButton": false,
         "downvoteButton": false
@@ -808,7 +808,7 @@
         "downvotes": 821,
         "rank": "C",
         "rating": 369,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959753255723048/Poison_Icon.webp?ex=65dde7dd&is=65cb72dd&hm=b30d50128d0c65fc3009eb52e5214abfa121e8a821cf29ec6a39123577fdfae3&",
+        "image": "../../img/",
         "heroicDeeds": 86,
         "upvoteButton": false,
         "downvoteButton": false
@@ -821,7 +821,7 @@
         "downvotes": 832,
         "rank": "C",
         "rating": 340,
-        "image": "https://cdn.discordapp.com/attachments/1181867865826144286/1206959753591390269/Buzz-Buzz_Man_profile.webp?ex=65dde7dd&is=65cb72dd&hm=940e83c8e56d02f819baa9a6a0e71fe3cfd09313000bc93d0568597cf2c1d92c&",
+        "image": "../../img/",
         "heroicDeeds": 121,
         "upvoteButton": false,
         "downvoteButton": false
@@ -834,7 +834,7 @@
         "downvotes": 832,
         "rank": "S",
         "rating": 7400,
-        "image": "https://cdn.discordapp.com/attachments/1072885371433656320/1207666192735535205/Blast_Icon.webp?ex=65e079c9&is=65ce04c9&hm=7468c906d987ca6bd19dfc4c628b0952c712020b9079b97dc4467f64f64fa98b&",
+        "image": "../../img/Blast_Icon.webp",
         "activity": {
             "text": "Last seen fighting Elder Centipede and helping people in the Z-City Ghost Town, while still fighting the Blast Errors."
         },
