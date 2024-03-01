@@ -82,7 +82,7 @@ async function leaderboard() {
             window.location.href = `../hero-profile/profile.html?id=${item.id}`;
         };
         listItem.innerHTML = `
-            <td><img class="top3-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td><img class="top3-hero-image" src="../${item.image}" alt="Foto of ${item.name}"></td>
             <td class="top3-hero-name">${item.rank} | ${item.name}</td>
             <td class="top3-hero-number"><span class="star-top3">
                 ${sortTypeShow ? svgElem : thumbsUp}
@@ -101,7 +101,7 @@ async function leaderboard() {
         };
         listItem.classList.add('elite-hero-card');
         listItem.innerHTML = `
-        <td><img class="elite-hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+        <td><img class="elite-hero-image" src="../${item.image}" alt="Foto of ${item.name}"></td>
         <td class="elite-hero-name">${item.rank} | ${item.name}</td>
         <td class="elite-hero-number"><span class="star-${star}">
             ${sortTypeShow ? svgElem : thumbsUp} 
