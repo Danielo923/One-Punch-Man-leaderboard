@@ -121,7 +121,7 @@ async function leaderboard() {
         listItem.classList.add('hero-card');
         listItem.innerHTML = `
             <td><h2 class="hero-placement">${i + 1}</h2></td>
-            <td><img class="hero-image" src="${item.image}" alt="Foto of ${item.name}"></td>
+            <td><img class="hero-image" src="../${item.image}" alt="Foto of ${item.name}"></td>
             <td class="hero-name">${item.rank} | ${item.name}</td>
             <td class="hero-number"><span class="star-${star}">
             ${sortTypeShow ? svgElem : thumbsUp} 
